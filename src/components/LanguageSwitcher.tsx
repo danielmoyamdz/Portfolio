@@ -27,7 +27,7 @@ export default function LanguageSwitcher() {
   return (
     <motion.button
       onClick={toggleLanguage}
-      className="fixed top-4 right-4 glass-effect px-4 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform"
+      className="p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
       aria-label={`Switch to ${i18n.language === 'en' ? 'Spanish' : 'English'}`}
       title={`Switch to ${i18n.language === 'en' ? 'Spanish' : 'English'}`}
       onHoverStart={() => setIsHovered(true)}
@@ -45,6 +45,7 @@ export default function LanguageSwitcher() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 10 }}
           transition={{ duration: 0.2 }}
+          className="text-sm font-medium"
         >
           {i18n.language === 'en' ? 'ES' : 'EN'}
         </motion.span>

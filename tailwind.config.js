@@ -20,9 +20,25 @@ module.exports = {
           dark: '#1C1C1E',
         },
         text: {
-          light: '#000000',
+          light: '#1F2937',
           dark: '#FFFFFF',
         },
+        border: {
+          light: '#E5E7EB',
+          dark: '#374151',
+        },
+        card: {
+          light: '#FFFFFF',
+          dark: '#1F2937',
+        },
+        heading: {
+          light: '#111827',
+          dark: '#F9FAFB',
+        },
+        subtext: {
+          light: '#4B5563',
+          dark: '#9CA3AF',
+        }
       },
       fontFamily: {
         sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
@@ -41,6 +57,10 @@ module.exports = {
             'background-position': 'right center',
           },
         },
+      },
+      boxShadow: {
+        'card-light': '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
+        'card-dark': '0 1px 3px 0 rgba(0, 0, 0, 0.3)',
       },
     },
   },

@@ -11,9 +11,11 @@ export default function ClientLayout({
 }) {
   return (
     <main className="min-h-screen bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark transition-colors">
-      <div className="fixed top-4 right-4 flex gap-4">
-        <ThemeToggle />
-        <LanguageSwitcher />
+      <div className="fixed top-4 right-4 flex items-center gap-4 z-50">
+        <div className="flex items-center gap-2 bg-white/10 dark:bg-black/10 backdrop-blur-md rounded-full p-1">
+          <ThemeToggle />
+          <LanguageSwitcher />
+        </div>
       </div>
       {children}
     </main>
