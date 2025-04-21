@@ -16,6 +16,11 @@ const nextConfig = {
     });
     return config;
   },
+  experimental: {
+    images: {
+      unoptimized: true,
+    },
+  },
 }
 
 export default nextConfig; 
