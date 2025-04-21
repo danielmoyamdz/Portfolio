@@ -5,7 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '/Portfolio',
-  assetPrefix: '/Portfolio',
+  assetPrefix: '/Portfolio/',
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: true,
