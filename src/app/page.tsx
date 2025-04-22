@@ -29,6 +29,7 @@ export default function Home() {
               height={320}
               className="rounded-full object-cover"
               priority
+              unoptimized
             />
           </div>
         </div>
@@ -176,6 +177,13 @@ export default function Home() {
             link="https://github.com/danielmoyamdz/film_searcher"
             linkText={t('projects.viewProject')}
             delay={0.4}
+          />
+          <ProjectCard 
+            title="Tic Tac Toe"
+            description="A Python implementation of the classic Tic Tac Toe game with an unbeatable AI opponent."
+            link="https://github.com/danielmoyamdz/tic-tac-toe"
+            linkText={t('projects.viewProject')}
+            delay={0.6}
           />
         </div>
       </AnimatedSection>

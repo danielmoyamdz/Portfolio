@@ -37,15 +37,20 @@ if (!i18n.isInitialized) {
               backend: 'Backend Development',
               databases: 'Databases',
               tools: 'DevOps & Tools',
-              languages: ['PHP', 'Java', 'Python', 'C++'],
+              languages: [
+                'PHP - Drupal 10 module development, REST APIs',
+                'Java - Spring Boot microservices, enterprise applications',
+                'Python - Data analysis, AI/ML projects, automation scripts',
+                'C++ - Game development, performance-critical applications'
+              ],
               technologies: {
-                ai: 'Artificial Intelligence',
-                devops: 'Docker, Git and Agile methodologies',
-                drupal: 'Drupal 10 Backend Developer',
-                databases: 'Database Management (SQL, NoSQL)',
-                web: 'Web Development (HTML, CSS, JavaScript, React, Node.js)',
-                architecture: 'Software architecture and microservices design',
-                bi: 'Power BI'
+                ai: 'AI Integration & Machine Learning - TensorFlow, OpenAI API, custom ML models',
+                devops: 'Docker, Git, CI/CD pipelines, and Agile methodologies',
+                drupal: 'Drupal 10 Backend Developer - Custom modules, themes, and distributions',
+                databases: 'Database Management - MySQL, PostgreSQL, MongoDB',
+                web: 'Web Development - HTML5, CSS3, JavaScript, React, Node.js, Next.js',
+                architecture: 'Software architecture - Microservices, REST APIs, GraphQL, Event-driven systems',
+                bi: 'Power BI - Data visualization, reporting, and business intelligence'
               }
             },
             projects: {
@@ -94,15 +99,20 @@ if (!i18n.isInitialized) {
               backend: 'Desarrollo Backend',
               databases: 'Bases de Datos',
               tools: 'DevOps y Herramientas',
-              languages: ['PHP', 'Java', 'Python', 'C++'],
+              languages: [
+                'PHP - Desarrollo de módulos Drupal 10, APIs REST, servicios personalizados',
+                'Java - Microservicios con Spring Boot, aplicaciones empresariales',
+                'Python - Análisis de datos, proyectos de IA/ML, scripts de automatización',
+                'C++ - Desarrollo de juegos, aplicaciones críticas de rendimiento'
+              ],
               technologies: {
-                ai: 'Inteligencia Artificial',
-                devops: 'Dockers, Git y metodologías ágiles',
-                drupal: 'Desarrollador Backend de Drupal 10',
-                databases: 'Gestión de Bases de Datos (SQL, NoSQL)',
-                web: 'Desarrollo Web (HTML, CSS, JavaScript, React, Node.js)',
-                architecture: 'Diseño de arquitecturas de software y microservicios',
-                bi: 'Power BI'
+                ai: 'Integración de IA y Machine Learning - TensorFlow, OpenAI API, modelos ML personalizados',
+                devops: 'Docker, Git, pipelines CI/CD y metodologías ágiles',
+                drupal: 'Desarrollador Backend de Drupal 10 - Módulos, temas y distribuciones personalizadas',
+                databases: 'Gestión de Bases de Datos - MySQL, PostgreSQL, MongoDB, Redis',
+                web: 'Desarrollo Web - HTML5, CSS3, JavaScript, React, Node.js, Next.js',
+                architecture: 'Arquitectura de Software - Microservicios, APIs REST, GraphQL, sistemas basados en eventos',
+                bi: 'Power BI - Visualización de datos, reporting e inteligencia empresarial'
               }
             },
             projects: {

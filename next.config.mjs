@@ -3,6 +3,12 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
   basePath: '/Portfolio',
   assetPrefix: '/Portfolio/',
@@ -17,9 +23,7 @@ const nextConfig = {
     return config;
   },
   experimental: {
-    images: {
-      unoptimized: true,
-    },
+    appDir: true,
   },
 }
 

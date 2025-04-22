@@ -14,29 +14,29 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/Portfolio/favicon/favicon.ico',
+        url: '/favicon/favicon.ico',
         sizes: 'any',
       },
       {
-        url: '/Portfolio/favicon/logo.png',
+        url: '/favicon/logo.png',
         type: 'image/png',
         sizes: '32x32',
       },
       {
-        url: '/Portfolio/favicon/logo.png',
+        url: '/favicon/logo.png',
         type: 'image/png',
         sizes: '16x16',
       }
     ],
     apple: [
       {
-        url: '/Portfolio/favicon/logo.png',
+        url: '/favicon/logo.png',
         sizes: '180x180',
         type: 'image/png',
       }
     ],
   },
-  manifest: '/Portfolio/favicon/site.webmanifest',
+  manifest: '/favicon/site.webmanifest',
 };
 
 export default function RootLayout({
@@ -47,11 +47,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/Portfolio/favicon/favicon.ico" sizes="any" />
-        <link rel="icon" href="/Portfolio/favicon/logo.png" type="image/png" sizes="32x32" />
-        <link rel="icon" href="/Portfolio/favicon/logo.png" type="image/png" sizes="16x16" />
-        <link rel="apple-touch-icon" href="/Portfolio/favicon/logo.png" />
-        <link rel="manifest" href="/Portfolio/favicon/site.webmanifest" />
+        <link rel="icon" href="/favicon/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon/logo.png" type="image/png" sizes="32x32" />
+        <link rel="icon" href="/favicon/logo.png" type="image/png" sizes="16x16" />
+        <link rel="apple-touch-icon" href="/favicon/logo.png" />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
       </head>
       <body className={inter.className}>
         <Providers>
