@@ -52,6 +52,17 @@ export default function RootLayout({
         <link rel="icon" href="/favicon/logo.png" type="image/png" sizes="16x16" />
         <link rel="apple-touch-icon" href="/favicon/logo.png" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.classList.add(theme);
+                document.documentElement.setAttribute('data-theme', theme);
+              } catch (e) {}
+            `,
+          }}
+        />
       </head>
       <body className={`${inter.className} transition-colors duration-300`}>
         <div className="fixed inset-0 bg-background-light dark:bg-background-dark transition-colors duration-300 -z-10 min-h-screen" />
