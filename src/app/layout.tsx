@@ -45,7 +45,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon/logo.png" type="image/png" sizes="32x32" />
@@ -53,7 +53,8 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/favicon/logo.png" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} transition-colors duration-300`}>
+        <div className="fixed inset-0 bg-background-light dark:bg-background-dark transition-colors duration-300 -z-10 min-h-screen" />
         <Providers>
           <ClientLayout>
             {children}

@@ -36,7 +36,7 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
+    <main className="min-h-screen text-text-light dark:text-text-dark">
       <AnimatedSection animation="fadeIn" duration={1}>
         <Hero />
       </AnimatedSection>

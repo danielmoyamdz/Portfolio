@@ -12,9 +12,11 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>('dark');
+  const [theme, setTheme] = useState<Theme>('light');
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
     // Check if theme is stored in localStorage
     const storedTheme = localStorage.getItem('theme') as Theme | null;
     
@@ -26,19 +28,36 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     } else {
       setTheme(storedTheme);
     }
-
-    // Apply theme to document
-    document.documentElement.classList.remove('light', 'dark');
-    document.documentElement.classList.add(storedTheme || theme);
   }, []);
 
+  useEffect(() => {
+    if (mounted) {
+      // Apply theme to document
+      const root = document.documentElement;
+      root.classList.remove('light', 'dark');
+      root.classList.add(theme);
+      root.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+
+      // Actualizar los colores del fondo
+      if (theme === 'dark') {
+        document.body.style.setProperty('--background-start-rgb', '17, 24, 39');
+        document.body.style.setProperty('--background-end-rgb', '11, 15, 25');
+      } else {
+        document.body.style.setProperty('--background-start-rgb', '255, 255, 255');
+        document.body.style.setProperty('--background-end-rgb', '242, 242, 247');
+      }
+    }
+  }, [theme, mounted]);
+
   const toggleTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme);
-    localStorage.setItem('theme', newTheme);
-    document.documentElement.classList.remove('light', 'dark');
-    document.documentElement.classList.add(newTheme);
+    setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light');
   };
+
+  // Prevent hydration mismatch
+  if (!mounted) {
+    return null;
+  }
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
