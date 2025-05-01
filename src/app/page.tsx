@@ -13,6 +13,7 @@ import About from '../components/About';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
+import ScrollMenu from '../components/ScrollMenu';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -37,47 +38,55 @@ export default function Home() {
 
   return (
     <main className="min-h-screen text-text-light dark:text-text-dark">
-      <AnimatedSection animation="fadeIn" duration={1}>
-        <Hero />
-      </AnimatedSection>
+      <ScrollMenu />
+      
+      <section id="hero">
+        <AnimatedSection animation="fadeIn" duration={1}>
+          <Hero />
+        </AnimatedSection>
+      </section>
 
-      <AnimatedSection 
-        animation="slideUp" 
-        delay={0.2} 
-        duration={0.8}
-        className="py-20"
-      >
-        <About />
-      </AnimatedSection>
+      <section id="about" className="py-20">
+        <AnimatedSection 
+          animation="slideUp" 
+          delay={0.2} 
+          duration={0.8}
+        >
+          <About />
+        </AnimatedSection>
+      </section>
 
-      <AnimatedSection 
-        animation="slideIn" 
-        direction="left"
-        delay={0.3} 
-        duration={0.8}
-        className="py-20"
-      >
-        <Skills />
-      </AnimatedSection>
+      <section id="skills" className="py-20">
+        <AnimatedSection 
+          animation="slideIn" 
+          direction="left"
+          delay={0.3} 
+          duration={0.8}
+        >
+          <Skills />
+        </AnimatedSection>
+      </section>
 
-      <AnimatedSection 
-        animation="slideIn" 
-        direction="right"
-        delay={0.4} 
-        duration={0.8}
-        className="py-20"
-      >
-        <Projects />
-      </AnimatedSection>
+      <section id="projects" className="py-20">
+        <AnimatedSection 
+          animation="slideIn" 
+          direction="right"
+          delay={0.4} 
+          duration={0.8}
+        >
+          <Projects />
+        </AnimatedSection>
+      </section>
 
-      <AnimatedSection 
-        animation="scale" 
-        delay={0.5} 
-        duration={0.8}
-        className="py-20"
-      >
-        <Contact />
-      </AnimatedSection>
+      <section id="contact" className="py-20">
+        <AnimatedSection 
+          animation="scale" 
+          delay={0.5} 
+          duration={0.8}
+        >
+          <Contact />
+        </AnimatedSection>
+      </section>
     </main>
   );
 } 

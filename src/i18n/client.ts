@@ -17,6 +17,7 @@ if (!i18n.isInitialized) {
               developedBy: 'Portfolio 100% developed by Daniel Moya'
             },
             hero: {
+              name: 'Daniel Moya Méndez',
               title: 'Computer Engineer',
               subtitle: 'Building scalable and efficient solutions',
               description: 'Software Engineering professional with solid experience in development and implementation of technological solutions.'
@@ -24,8 +25,22 @@ if (!i18n.isInitialized) {
             about: {
               title: 'About Me',
               description: 'Software Engineering professional with strong experience in development and technological solutions implementation. I stand out for my analytical capacity, leadership and teamwork, focused on optimizing processes and achieving strategic objectives. I am proactive and an extroverted person who loves to continuously learn new things.',
-              education: 'Computer Engineering Degree in Software Engineering (2020 - 2024)',
-              university: 'Universidad de Extremadura',
+              education: {
+                title: 'Education',
+                degree: 'Computer Engineering Degree in Software Engineering (2020 - 2024)',
+                university: 'Universidad de Extremadura',
+                skillsTitle: 'Key Skills & Knowledge',
+                skills: [
+                  'Advanced Software Architecture & Design Patterns',
+                  'Full Stack Development & Cloud Computing',
+                  'Agile Methodologies & Project Management',
+                  'Data Structures & Algorithms Optimization',
+                  'DevOps & CI/CD Pipeline Implementation',
+                  'Database Design & Performance Optimization',
+                  'System Analysis & Requirements Engineering',
+                  'AI & Machine Learning Fundamentals'
+                ]
+              },
               experience: {
                 title: 'Experience',
                 current: {
@@ -82,6 +97,7 @@ if (!i18n.isInitialized) {
               developedBy: 'Portfolio 100% desarrollado por Daniel Moya'
             },
             hero: {
+              name: 'Daniel Moya Méndez',
               title: 'Ingeniero Informático',
               subtitle: 'Construyendo soluciones escalables y eficientes',
               description: 'Profesional en Ingeniería de Software con experiencia sólida en desarrollo e implementación de soluciones tecnológicas.'
@@ -89,8 +105,22 @@ if (!i18n.isInitialized) {
             about: {
               title: 'Sobre Mí',
               description: 'Profesional en Ingeniería de Software con sólida experiencia en el desarrollo y la implementación de soluciones tecnológicas. Destaco por mi capacidad de análisis, liderazgo y trabajo en equipo, orientado a optimizar procesos y alcanzar objetivos estratégicos. Soy proactivo y una persona extrovertida al que le encanta estar aprendiendo cosas nuevas continuamente.',
-              education: 'Grado en Ingeniería Informática en Ingeniería del Software (2020 - 2024)',
-              university: 'Universidad de Extremadura',
+              education: {
+                title: 'Educación',
+                degree: 'Grado en Ingeniería Informática en Ingeniería del Software (2020 - 2024)',
+                university: 'Universidad de Extremadura',
+                skillsTitle: 'Habilidades y Conocimientos Clave',
+                skills: [
+                  'Arquitectura de Software Avanzada & Patrones de Diseño',
+                  'Desarrollo Full Stack & Computación en la Nube',
+                  'Metodologías Ágiles & Gestión de Proyectos',
+                  'Estructuras de Datos & Optimización de Algoritmos',
+                  'DevOps & Implementación de Pipelines CI/CD',
+                  'Diseño de Bases de Datos & Optimización de Rendimiento',
+                  'Análisis de Sistemas & Ingeniería de Requisitos',
+                  'Fundamentos de IA & Machine Learning'
+                ]
+              },
               experience: {
                 title: 'Experiencia',
                 current: {

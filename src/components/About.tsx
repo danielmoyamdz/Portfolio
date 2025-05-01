@@ -61,14 +61,32 @@ export default function About() {
         >
           <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark p-6 rounded-xl">
             <h3 className="text-2xl font-semibold mb-4 text-heading-light dark:text-heading-dark">
-              Education
+              {t('about.education.title')}
             </h3>
-            <p className="text-lg text-text-light dark:text-text-dark">
-              {t('about.education')}
-            </p>
-            <p className="text-subtext-light dark:text-subtext-dark">
-              {t('about.university')}
-            </p>
+            <div className="mb-4">
+              <h4 className="text-xl font-medium text-primary">
+                {t('about.education.university')}
+              </h4>
+              <p className="text-lg text-text-light dark:text-text-dark">
+                {t('about.education.degree')}
+              </p>
+              <div className="mt-4">
+                <h5 className="text-lg font-medium mb-2 text-heading-light dark:text-heading-dark">
+                  {t('about.education.skillsTitle')}
+                </h5>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  {(t('about.education.skills', { returnObjects: true }) as string[]).map((skill, index) => (
+                    <div 
+                      key={index}
+                      className="flex items-start gap-2"
+                    >
+                      <span className="text-primary mt-1.5">•</span>
+                      <span className="text-text-light dark:text-text-dark">{skill}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </AnimatedElement>
       </div>
