@@ -23,8 +23,6 @@ export default function AnimatedSection({
   direction = 'up'
 }: AnimatedSectionProps) {
   const getAnimationVariants = () => {
-    const distance = 30;
-    
     switch (animation) {
       case 'fadeIn':
         return {
@@ -34,57 +32,54 @@ export default function AnimatedSection({
             transition: {
               duration: duration,
               delay: delay,
-              ease: [0.22, 1, 0.36, 1],
-              staggerChildren: staggerChildren
+              staggerChildren: staggerChildren,
+              ease: [0.22, 1, 0.36, 1]
             }
           }
         };
       
       case 'slideUp':
         return {
-          hidden: { opacity: 0, y: distance },
+          hidden: { opacity: 0, y: 50 },
           visible: { 
             opacity: 1, 
             y: 0,
             transition: {
               duration: duration,
               delay: delay,
-              ease: [0.22, 1, 0.36, 1],
-              staggerChildren: staggerChildren
+              staggerChildren: staggerChildren,
+              ease: [0.22, 1, 0.36, 1]
             }
           }
         };
       
       case 'slideIn':
-        const xValue = direction === 'left' ? distance : direction === 'right' ? -distance : 0;
-        const yValue = direction === 'up' ? distance : direction === 'down' ? -distance : 0;
-        
+        const xOffset = direction === 'left' ? -50 : 50;
         return {
-          hidden: { opacity: 0, x: xValue, y: yValue },
+          hidden: { opacity: 0, x: xOffset },
           visible: { 
             opacity: 1, 
             x: 0,
-            y: 0,
             transition: {
               duration: duration,
               delay: delay,
-              ease: [0.22, 1, 0.36, 1],
-              staggerChildren: staggerChildren
+              staggerChildren: staggerChildren,
+              ease: [0.22, 1, 0.36, 1]
             }
           }
         };
       
       case 'scale':
         return {
-          hidden: { opacity: 0, scale: 0.95 },
+          hidden: { opacity: 0, scale: 0.9 },
           visible: { 
             opacity: 1, 
             scale: 1,
             transition: {
               duration: duration,
               delay: delay,
-              ease: [0.22, 1, 0.36, 1],
-              staggerChildren: staggerChildren
+              staggerChildren: staggerChildren,
+              ease: [0.22, 1, 0.36, 1]
             }
           }
         };
@@ -129,7 +124,7 @@ export default function AnimatedSection({
     <motion.section
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, margin: "-100px" }}
+      viewport={{ once: true, margin: "-100px", amount: 0.3 }}
       variants={variants}
       className={className}
     >

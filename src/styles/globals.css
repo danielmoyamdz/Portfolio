@@ -41,4 +41,18 @@
 
 .hover-scale:hover {
   transform: scale(1.05);
+}
+
+@keyframes blink {
+  from, to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.typed-cursor {
+  font-size: 1.5em;
+  color: theme('colors.primary');
 } 

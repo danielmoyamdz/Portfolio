@@ -27,17 +27,17 @@ export default function Skills() {
           duration={0.8}
         >
           <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark p-6 rounded-xl h-full">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-6">
               <FaCode className="text-2xl text-primary mr-3" />
               <h3 className="text-2xl font-semibold text-heading-light dark:text-heading-dark">
                 {t('skills.backend')}
               </h3>
             </div>
-            <ul className="space-y-2 text-text-light dark:text-text-dark">
+            <ul className="space-y-4">
               {(t('skills.languages', { returnObjects: true }) as string[]).map((lang: string, index: number) => (
-                <li key={index} className="flex items-center">
-                  <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                  {lang}
+                <li key={index} className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-primary rounded-full mt-2"></span>
+                  <span className="text-text-light dark:text-text-dark">{lang}</span>
                 </li>
               ))}
             </ul>
@@ -51,7 +51,7 @@ export default function Skills() {
           duration={0.8}
         >
           <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark p-6 rounded-xl h-full">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-6">
               <FaDatabase className="text-2xl text-primary mr-3" />
               <h3 className="text-2xl font-semibold text-heading-light dark:text-heading-dark">
                 {t('skills.databases')}
@@ -70,7 +70,7 @@ export default function Skills() {
           duration={0.8}
         >
           <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark p-6 rounded-xl h-full">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-6">
               <FaTools className="text-2xl text-primary mr-3" />
               <h3 className="text-2xl font-semibold text-heading-light dark:text-heading-dark">
                 {t('skills.tools')}
@@ -91,7 +91,7 @@ export default function Skills() {
           duration={0.8}
         >
           <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark p-6 rounded-xl h-full">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-6">
               <FaGlobe className="text-2xl text-primary mr-3" />
               <h3 className="text-2xl font-semibold text-heading-light dark:text-heading-dark">
                 Web Development
@@ -110,7 +110,7 @@ export default function Skills() {
           duration={0.8}
         >
           <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark p-6 rounded-xl h-full">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-6">
               <FaBrain className="text-2xl text-primary mr-3" />
               <h3 className="text-2xl font-semibold text-heading-light dark:text-heading-dark">
                 Architecture & AI
@@ -119,7 +119,7 @@ export default function Skills() {
             <p className="text-text-light dark:text-text-dark">
               {t('skills.technologies.architecture')}
             </p>
-            <p className="text-text-light dark:text-text-dark mt-2">
+            <p className="text-text-light dark:text-text-dark mt-4">
               {t('skills.technologies.ai')}
             </p>
           </div>
@@ -132,7 +132,7 @@ export default function Skills() {
           duration={0.8}
         >
           <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark p-6 rounded-xl h-full">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-6">
               <FaChartBar className="text-2xl text-primary mr-3" />
               <h3 className="text-2xl font-semibold text-heading-light dark:text-heading-dark">
                 Data Analysis
@@ -140,9 +140,6 @@ export default function Skills() {
             </div>
             <p className="text-text-light dark:text-text-dark">
               {t('skills.technologies.bi')}
-            </p>
-            <p className="text-text-light dark:text-text-dark mt-2">
-              Data visualization and reporting
             </p>
           </div>
         </AnimatedElement>

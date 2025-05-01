@@ -13,6 +13,13 @@ if (!i18n.isInitialized) {
       resources: {
         en: {
           translation: {
+            navigation: {
+              home: 'Home',
+              about: 'About',
+              skills: 'Skills',
+              projects: 'Projects',
+              contact: 'Contact'
+            },
             portfolio: {
               developedBy: 'Portfolio 100% developed by Daniel Moya'
             },
@@ -93,6 +100,13 @@ if (!i18n.isInitialized) {
         },
         es: {
           translation: {
+            navigation: {
+              home: 'Inicio',
+              about: 'Sobre Mí',
+              skills: 'Habilidades',
+              projects: 'Proyectos',
+              contact: 'Contacto'
+            },
             portfolio: {
               developedBy: 'Portfolio 100% desarrollado por Daniel Moya'
             },
