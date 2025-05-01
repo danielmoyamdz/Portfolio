@@ -5,6 +5,7 @@ import '../styles/globals.css';
 import '../i18n/client';
 import { Providers } from './providers';
 import ClientLayout from './ClientLayout';
+import PortfolioMessage from '../components/PortfolioMessage';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -70,6 +71,7 @@ export default function RootLayout({
           <ClientLayout>
             {children}
           </ClientLayout>
+          <PortfolioMessage />
         </Providers>
       </body>
     </html>

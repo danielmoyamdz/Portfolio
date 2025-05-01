@@ -13,6 +13,9 @@ if (!i18n.isInitialized) {
       resources: {
         en: {
           translation: {
+            portfolio: {
+              developedBy: 'Portfolio 100% developed by Daniel Moya'
+            },
             hero: {
               title: 'Software Developer',
               subtitle: 'Building scalable and efficient solutions',
@@ -75,6 +78,9 @@ if (!i18n.isInitialized) {
         },
         es: {
           translation: {
+            portfolio: {
+              developedBy: 'Portfolio 100% desarrollado por Daniel Moya'
+            },
             hero: {
               title: 'Desarrollador de Software',
               subtitle: 'Construyendo soluciones escalables y eficientes',
