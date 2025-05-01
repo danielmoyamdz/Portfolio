@@ -61,7 +61,7 @@ export default function Hero() {
         delay={0.4} 
         duration={0.8}
       >
-        <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+        <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent leading-relaxed py-2">
           {t('hero.title')}
         </h1>
       </AnimatedElement>

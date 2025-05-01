@@ -17,7 +17,7 @@ if (!i18n.isInitialized) {
               developedBy: 'Portfolio 100% developed by Daniel Moya'
             },
             hero: {
-              title: 'Software Developer',
+              title: 'Computer Engineer',
               subtitle: 'Building scalable and efficient solutions',
               description: 'Software Engineering professional with solid experience in development and implementation of technological solutions.'
             },
@@ -82,7 +82,7 @@ if (!i18n.isInitialized) {
               developedBy: 'Portfolio 100% desarrollado por Daniel Moya'
             },
             hero: {
-              title: 'Desarrollador de Software',
+              title: 'Ingeniero Informático',
               subtitle: 'Construyendo soluciones escalables y eficientes',
               description: 'Profesional en Ingeniería de Software con experiencia sólida en desarrollo e implementación de soluciones tecnológicas.'
             },

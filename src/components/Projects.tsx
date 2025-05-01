@@ -27,6 +27,20 @@ export default function Projects() {
           duration={0.8}
         >
           <ProjectCard 
+            title="Portfolio"
+            description="A modern, responsive portfolio website with a clean, Apple visionOS-inspired design. Features smooth animations, dark/light mode, and full internationalization support."
+            link="https://github.com/danielmoyamdz/Portfolio"
+            linkText={t('projects.viewProject')}
+          />
+        </AnimatedElement>
+
+        <AnimatedElement 
+          animation="slideIn" 
+          direction="right"
+          delay={0.6} 
+          duration={0.8}
+        >
+          <ProjectCard 
             title="Password Generator"
             description="A JavaScript application for generating secure passwords with customizable options."
             link="https://github.com/danielmoyamdz/password_generation"
@@ -36,8 +50,8 @@ export default function Projects() {
 
         <AnimatedElement 
           animation="slideIn" 
-          direction="right"
-          delay={0.6} 
+          direction="left"
+          delay={0.8} 
           duration={0.8}
         >
           <ProjectCard 
@@ -50,8 +64,8 @@ export default function Projects() {
 
         <AnimatedElement 
           animation="slideIn" 
-          direction="left"
-          delay={0.8} 
+          direction="right"
+          delay={1.0} 
           duration={0.8}
         >
           <ProjectCard 
