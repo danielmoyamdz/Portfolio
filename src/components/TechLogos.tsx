@@ -6,7 +6,7 @@ const technologies = [
   { name: 'PHP', logo: 'tech/php.svg' },
   { name: 'Drupal', logo: 'tech/drupal.svg' },
   { name: 'Java', logo: 'tech/java.svg' },
-  { name: 'Spring', logo: 'tech/spring.svg' },
+  { name: 'Power BI', logo: 'tech/powerbi.svg' },
   { name: 'Python', logo: 'tech/python.svg' },
   { name: 'React', logo: 'tech/react.svg' },
   { name: 'Node.js', logo: 'tech/nodedotjs.svg' },
@@ -41,7 +41,7 @@ export default function TechLogos() {
             <img
               src={tech.logo}
               alt={tech.name}
-              className="w-full h-full dark:invert-[.25]"
+              className="w-full h-full invert-0 dark:invert"
               loading="lazy"
             />
           </motion.div>
