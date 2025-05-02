@@ -34,8 +34,8 @@ if (!i18n.isInitialized) {
               description: 'Software Engineering professional with strong experience in development and technological solutions implementation. I stand out for my analytical capacity, leadership and teamwork, focused on optimizing processes and achieving strategic objectives. I am proactive and an extroverted person who loves to continuously learn new things.',
               education: {
                 title: 'Education',
-                degree: 'Computer Engineering Degree in Software Engineering (2020 - 2024)',
-                university: 'Universidad de Extremadura',
+                degree: 'Computer Engineering Degree in Software Engineering',
+                university: 'Universidad de Extremadura (2020 - 2024)',
                 skillsTitle: 'Key Skills & Knowledge',
                 skills: [
                   'Advanced Software Architecture & Design Patterns',
@@ -51,7 +51,7 @@ if (!i18n.isInitialized) {
               experience: {
                 title: 'Experience',
                 current: {
-                  company: 'FACTORIAL GMBH (2024-2025)',
+                  company: 'Factorial GmbH (2024-2025)',
                   role: 'Drupal 10 Backend Development',
                   description: 'Creation and maintenance of modules, AI integrations, prototype creation, open source contributions, website updates, and content migrations. Remote work.'
                 }
@@ -122,6 +122,24 @@ if (!i18n.isInitialized) {
               title: 'Projects',
               viewProject: 'View Project'
             },
+            testimonials: {
+              title: 'Professional Recommendations',
+              contact: 'Contact',
+              alvaro: {
+                position: 'Backend People Lead',
+                content: `I am delighted to write this letter of recommendation for Daniel Moya, who worked under my supervision at Factorial.io. Daniel joined us as an intern for six months, after which we offered him a full-time contract due to the exceptional potential we saw in him.
+
+During his internship, Daniel initially faced challenges adapting to a remote working environment and communicating in English. However, he quickly demonstrated his ability to adapt and thrive, overcoming these obstacles with determination and a proactive attitude. His growth during this period was remarkable, and it was clear that he possessed the skills and mindset to succeed in our team.
+
+Daniel is an honest, hardworking individual with a genuine desire to improve. He consistently brought enthusiasm and dedication to his role, making him a pleasure to work with. I am confident that he will be an asset to any team fortunate enough to have him.`
+              },
+              natalia: {
+                position: 'Lead Developer | Data Science, ML & AI',
+                content: `I had the pleasure of working with Daniel on several projects at Factorial, and he is a dedicated and skilled developer apprentice. He has experience with Drupal development and open-source PHP applications like Mautic, along with knowledge of working with LLMs and prompt engineering to develop AI agents and chatbots.
+
+His ability to adapt to new technologies and programming languages, such as JavaScript and Python, even under tight deadlines, is impressive. Beyond his technical skills, he is organized, receptive to feedback, and a great team player—always bringing a positive and proactive attitude. His strong English skills and flexibility make him a valuable addition to any team.`
+              }
+            },
             contact: {
               title: 'Contact',
               email: 'danielmoya2002@gmail.com',
@@ -161,8 +179,8 @@ if (!i18n.isInitialized) {
               description: 'Profesional en Ingeniería de Software con sólida experiencia en el desarrollo y la implementación de soluciones tecnológicas. Destaco por mi capacidad de análisis, liderazgo y trabajo en equipo, orientado a optimizar procesos y alcanzar objetivos estratégicos. Soy proactivo y una persona extrovertida al que le encanta estar aprendiendo cosas nuevas continuamente.',
               education: {
                 title: 'Educación',
-                degree: 'Grado en Ingeniería Informática en Ingeniería del Software (2020 - 2024)',
-                university: 'Universidad de Extremadura',
+                degree: 'Grado en Ingeniería Informática en Ingeniería del Software',
+                university: 'Universidad de Extremadura (2020 - 2024)',
                 skillsTitle: 'Habilidades y Conocimientos Clave',
                 skills: [
                   'Arquitectura de Software Avanzada y Patrones de Diseño',
@@ -178,7 +196,7 @@ if (!i18n.isInitialized) {
               experience: {
                 title: 'Experiencia',
                 current: {
-                  company: 'FACTORIAL GMBH (2024-2025)',
+                  company: 'Factorial GmbH (2024-2025)',
                   role: 'Desarrollo Backend en Drupal 10',
                   description: 'Creación y mantenimiento de módulos, integraciones con IA, creación de prototipos, contribuciones de código abierto, actualizaciones de sitios web y migraciones de contenido. Trabajo en remoto.'
                 }
@@ -248,6 +266,24 @@ if (!i18n.isInitialized) {
             projects: {
               title: 'Proyectos',
               viewProject: 'Ver Proyecto'
+            },
+            testimonials: {
+              title: 'Recomendaciones Profesionales',
+              contact: 'Contacto',
+              alvaro: {
+                position: 'Líder de Equipo Backend',
+                content: `Me complace escribir esta carta de recomendación para Daniel Moya, quien trabajó bajo mi supervisión en Factorial.io. Daniel se unió a nosotros como becario durante seis meses, después de lo cual le ofrecimos un contrato a tiempo completo debido al excepcional potencial que vimos en él.
+
+Durante su período de prácticas, Daniel inicialmente enfrentó desafíos al adaptarse a un entorno de trabajo remoto y a comunicarse en inglés. Sin embargo, rápidamente demostró su capacidad para adaptarse y prosperar, superando estos obstáculos con determinación y una actitud proactiva. Su crecimiento durante este período fue notable, y quedó claro que poseía las habilidades y la mentalidad para tener éxito en nuestro equipo.
+
+Daniel es una persona honesta, trabajadora y con un genuino deseo de mejorar. Constantemente aportaba entusiasmo y dedicación a su rol, lo que lo hacía un placer trabajar con él. Estoy seguro de que será un activo valioso para cualquier equipo que tenga la fortuna de contar con él.`
+              },
+              natalia: {
+                position: 'Líder de Desarrollo | Ciencia de Datos, ML & IA',
+                content: `Tuve el placer de trabajar con Daniel en varios proyectos en Factorial, y es un desarrollador aprendiz dedicado y hábil. Tiene experiencia en desarrollo con Drupal y aplicaciones PHP de código abierto como Mautic, junto con conocimientos en el trabajo con LLMs e ingeniería de prompts para desarrollar agentes de IA y chatbots.
+
+Su capacidad para adaptarse a nuevas tecnologías y lenguajes de programación, como JavaScript y Python, incluso bajo plazos ajustados, es impresionante. Más allá de sus habilidades técnicas, es organizado, receptivo a la retroalimentación y un excelente compañero de equipo, siempre aportando una actitud positiva y proactiva. Sus sólidas habilidades en inglés y su flexibilidad lo convierten en una valiosa adición a cualquier equipo.`
+              }
             },
             contact: {
               title: 'Contacto',
