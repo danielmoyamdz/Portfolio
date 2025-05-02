@@ -6,6 +6,7 @@ import TechRadar from './TechRadar';
 import TechLogos from './TechLogos';
 import TechTimeline from './TechTimeline';
 import Certifications from './Certifications';
+import AnimatedElement from './AnimatedElement';
 
 export default function Skills() {
   const { t, i18n } = useTranslation();
@@ -80,10 +81,14 @@ export default function Skills() {
 
       {/* Certifications Section */}
       <div id="certifications">
-        <h3 className="text-3xl font-semibold mb-8 text-center text-heading-light dark:text-heading-dark">
-          {t('skills.certifications')}
-        </h3>
-        <Certifications />
+        <AnimatedElement animation="slideUp" delay={0.2} duration={0.8}>
+          <h3 className="text-3xl font-semibold mb-8 text-center text-heading-light dark:text-heading-dark">
+            {t('skills.certifications')}
+          </h3>
+        </AnimatedElement>
+        <AnimatedElement animation="fadeIn" delay={0.4} duration={0.8}>
+          <Certifications />
+        </AnimatedElement>
       </div>
     </div>
   );

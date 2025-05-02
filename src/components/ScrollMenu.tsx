@@ -25,7 +25,7 @@ export default function ScrollMenu() {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-      setIsOpen(false);
+      setTimeout(() => setIsOpen(false), 400);
     }
   };
 
@@ -54,7 +54,8 @@ export default function ScrollMenu() {
               bg-gradient-to-br from-white/90 via-gray-100/90 to-gray-200/90 
               dark:from-[#232b3aee] dark:via-[#181C24ee] dark:to-[#232b3aee] 
               border border-primary/20 dark:border-primary/30 
-              rounded-2xl shadow-2xl overflow-hidden backdrop-blur-xl"
+              rounded-2xl shadow-2xl overflow-hidden backdrop-blur-xl
+              max-h-[80vh] overflow-y-auto"
             style={{ boxShadow: '0 8px 32px 0 #3B82F655, 0 1.5px 8px 0 #0008' }}
           >
             <div className="py-2">
