@@ -56,7 +56,7 @@ export default function Home() {
         </AnimatedSection>
       </section>
 
-      <section id="skills" className="py-20 bg-background-light dark:bg-background-dark">
+      <section id="skills" className="py-20">
         <div className="container mx-auto">
           <Skills />
         </div>

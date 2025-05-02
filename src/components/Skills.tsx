@@ -17,44 +17,26 @@ export default function Skills() {
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-        <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark p-6 rounded-xl">
-          <div className="flex items-center mb-6">
-            <FaCode className="text-2xl text-primary mr-3" />
-            <h3 className="text-2xl font-semibold text-heading-light dark:text-heading-dark">
-              {t('skills.backend')}
-            </h3>
+        {[{
+          icon: <FaCode className="text-2xl text-primary mr-3" />, title: t('skills.backend'),
+          content: [t('skills.techDetails.drupal'), t('skills.techDetails.architecture')]
+        }, {
+          icon: <FaDatabase className="text-2xl text-primary mr-3" />, title: t('skills.databases'),
+          content: [t('skills.techDetails.databases')]
+        }, {
+          icon: <FaTools className="text-2xl text-primary mr-3" />, title: t('skills.tools'),
+          content: [t('skills.techDetails.devops')]
+        }].map((block, idx) => (
+          <div key={block.title} className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark p-6 rounded-xl relative overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-xl" />
+            <div className="relative z-10">
+              <div className="flex items-center mb-6">{block.icon}
+                <h3 className="text-2xl font-semibold text-heading-light dark:text-heading-dark">{block.title}</h3>
+              </div>
+              {block.content.map((txt, i) => <p key={i} className="text-text-light dark:text-text-dark mb-4 last:mb-0">{txt}</p>)}
+            </div>
           </div>
-          <p className="text-text-light dark:text-text-dark mb-4">
-            {t('skills.techDetails.drupal')}
-          </p>
-          <p className="text-text-light dark:text-text-dark">
-            {t('skills.techDetails.architecture')}
-          </p>
-        </div>
-
-        <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark p-6 rounded-xl">
-          <div className="flex items-center mb-6">
-            <FaDatabase className="text-2xl text-primary mr-3" />
-            <h3 className="text-2xl font-semibold text-heading-light dark:text-heading-dark">
-              {t('skills.databases')}
-            </h3>
-          </div>
-          <p className="text-text-light dark:text-text-dark">
-            {t('skills.techDetails.databases')}
-          </p>
-        </div>
-
-        <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark p-6 rounded-xl">
-          <div className="flex items-center mb-6">
-            <FaTools className="text-2xl text-primary mr-3" />
-            <h3 className="text-2xl font-semibold text-heading-light dark:text-heading-dark">
-              {t('skills.tools')}
-            </h3>
-          </div>
-          <p className="text-text-light dark:text-text-dark">
-            {t('skills.techDetails.devops')}
-          </p>
-        </div>
+        ))}
       </div>
 
       {/* Tech Radar Section */}
@@ -62,8 +44,11 @@ export default function Skills() {
         <h3 className="text-3xl font-semibold mb-8 text-center text-heading-light dark:text-heading-dark">
           {t('skills.proficiencyChart')}
         </h3>
-        <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark rounded-xl p-6">
-          <TechRadar />
+        <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark rounded-xl p-6 relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-xl" />
+          <div className="relative z-10">
+            <TechRadar />
+          </div>
         </div>
       </div>
 
@@ -72,8 +57,11 @@ export default function Skills() {
         <h3 className="text-3xl font-semibold mb-8 text-center text-heading-light dark:text-heading-dark">
           {t('skills.techStack')}
         </h3>
-        <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark rounded-xl p-6">
-          <TechLogos />
+        <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark rounded-xl p-6 relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-xl" />
+          <div className="relative z-10">
+            <TechLogos />
+          </div>
         </div>
       </div>
 
@@ -82,8 +70,11 @@ export default function Skills() {
         <h3 className="text-3xl font-semibold mb-8 text-center text-heading-light dark:text-heading-dark">
           {t('skills.timeline')}
         </h3>
-        <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark rounded-xl p-6">
-          <TechTimeline key={i18n.language} />
+        <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark rounded-xl p-6 relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-xl" />
+          <div className="relative z-10">
+            <TechTimeline key={i18n.language} />
+          </div>
         </div>
       </div>
 

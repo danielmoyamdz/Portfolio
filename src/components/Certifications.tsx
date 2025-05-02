@@ -7,8 +7,8 @@ import Image from 'next/image';
 const certifications = [
   {
     name: 'Power BI Data Analyst Associate',
-    issuer: 'Microsoft',
-    date: '2024',
+    issuer: 'Datahack',
+    date: '2025',
     image: '/Portfolio/certs/Certificado_Power_BI.svg',
     link: null
   },

@@ -24,7 +24,7 @@ export default function ParticlesBackground() {
             color: "#3B82F6",
             distance: 150,
             enable: true,
-            opacity: 0.2,
+            opacity: 0.4,
             width: 1,
           },
           move: {
@@ -34,7 +34,7 @@ export default function ParticlesBackground() {
               default: "bounce",
             },
             random: false,
-            speed: 0.5,
+            speed: 0.8,
             straight: false,
           },
           number: {
@@ -42,16 +42,16 @@ export default function ParticlesBackground() {
               enable: true,
               area: 800,
             },
-            value: 50,
+            value: 80,
           },
           opacity: {
-            value: 0.2,
+            value: 0.4,
           },
           shape: {
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 3 },
+            value: { min: 1, max: 4 },
           },
         },
         detectRetina: true,

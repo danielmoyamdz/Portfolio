@@ -42,7 +42,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.className} transition-colors duration-300`}>
-        <div className="fixed inset-0 bg-background-light dark:bg-background-dark transition-colors duration-300 -z-10 min-h-screen" />
+        <div className="fixed inset-0 bg-background-light/50 dark:bg-[#181C24]/95 transition-colors duration-300 -z-20 min-h-screen" />
         <Providers>
           <ParticlesBackground />
           <ClientLayout>
