@@ -13,7 +13,6 @@ export default function ScrollMenu() {
     { id: 'hero', label: t('hero.name'), icon: FaHome },
     { id: 'about', label: t('about.title'), icon: FaUser },
     { id: 'skills', label: t('skills.title'), icon: FaCode },
-    { id: 'technical-proficiency', label: 'Technical Proficiency', icon: FaCogs },
     { id: 'technologies-tools', label: 'Technologies & Tools', icon: FaTools },
     { id: 'technology-journey', label: 'Technology Journey', icon: FaRoute },
     { id: 'certifications', label: 'Certifications & Badges', icon: FaCertificate },
