@@ -13,9 +13,9 @@ export default function ScrollMenu() {
     { id: 'hero', label: t('hero.name'), icon: FaHome },
     { id: 'about', label: t('about.title'), icon: FaUser },
     { id: 'skills', label: t('skills.title'), icon: FaCode },
-    { id: 'technologies-tools', label: 'Technologies & Tools', icon: FaTools },
-    { id: 'technology-journey', label: 'Technology Journey', icon: FaRoute },
-    { id: 'certifications', label: 'Certifications & Badges', icon: FaCertificate },
+    { id: 'technologies-tools', label: t('skills.techStack'), icon: FaTools },
+    { id: 'technology-journey', label: t('skills.timeline'), icon: FaRoute },
+    { id: 'certifications', label: t('skills.certifications'), icon: FaCertificate },
     { id: 'projects', label: t('projects.title'), icon: FaProjectDiagram },
     { id: 'contact', label: t('contact.title'), icon: FaEnvelope }
   ];
