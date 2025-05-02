@@ -40,7 +40,7 @@ export default function Skills() {
       </div>
 
       {/* Tech Radar Section */}
-      <div className="mb-16">
+      <div className="mb-16" id="technical-proficiency">
         <h3 className="text-3xl font-semibold mb-8 text-center text-heading-light dark:text-heading-dark">
           {t('skills.proficiencyChart')}
         </h3>
@@ -53,7 +53,7 @@ export default function Skills() {
       </div>
 
       {/* Tech Logos Section */}
-      <div className="mb-16">
+      <div className="mb-16" id="technologies-tools">
         <h3 className="text-3xl font-semibold mb-8 text-center text-heading-light dark:text-heading-dark">
           {t('skills.techStack')}
         </h3>
@@ -66,7 +66,7 @@ export default function Skills() {
       </div>
 
       {/* Tech Timeline Section */}
-      <div className="mb-16">
+      <div className="mb-16" id="technology-journey">
         <h3 className="text-3xl font-semibold mb-8 text-center text-heading-light dark:text-heading-dark">
           {t('skills.timeline')}
         </h3>
@@ -79,7 +79,7 @@ export default function Skills() {
       </div>
 
       {/* Certifications Section */}
-      <div>
+      <div id="certifications">
         <h3 className="text-3xl font-semibold mb-8 text-center text-heading-light dark:text-heading-dark">
           {t('skills.certifications')}
         </h3>
