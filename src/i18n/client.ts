@@ -62,13 +62,20 @@ if (!i18n.isInitialized) {
               backend: 'Backend Development',
               databases: 'Databases',
               tools: 'DevOps & Tools',
+              proficiency: 'Skill Proficiency',
+              mastery: 'Mastery Level',
+              proficiencyChart: 'Technical Proficiency',
+              techStack: 'Technologies & Tools',
+              timeline: 'Technology Journey',
+              certifications: 'Certifications & Badges',
+              viewCertificate: 'View Certificate',
               languages: [
                 'PHP - Drupal 10 module development, REST APIs',
                 'Java - Spring Boot microservices, enterprise applications',
                 'Python - Data analysis, AI/ML projects, automation scripts',
                 'C++ - Game development, performance-critical applications'
               ],
-              technologies: {
+              techDetails: {
                 ai: 'AI Integration & Machine Learning - TensorFlow, OpenAI API, custom ML models',
                 devops: 'Docker, Git, CI/CD pipelines, and Agile methodologies',
                 drupal: 'Drupal 10 Backend Developer - Custom modules, themes, and distributions',
@@ -125,22 +132,22 @@ if (!i18n.isInitialized) {
                 university: 'Universidad de Extremadura',
                 skillsTitle: 'Habilidades y Conocimientos Clave',
                 skills: [
-                  'Arquitectura de Software Avanzada & Patrones de Diseño',
-                  'Desarrollo Full Stack & Computación en la Nube',
-                  'Metodologías Ágiles & Gestión de Proyectos',
-                  'Estructuras de Datos & Optimización de Algoritmos',
-                  'DevOps & Implementación de Pipelines CI/CD',
-                  'Diseño de Bases de Datos & Optimización de Rendimiento',
-                  'Análisis de Sistemas & Ingeniería de Requisitos',
-                  'Fundamentos de IA & Machine Learning'
+                  'Arquitectura de Software Avanzada y Patrones de Diseño',
+                  'Desarrollo Full Stack y Computación en la Nube',
+                  'Metodologías Ágiles y Gestión de Proyectos',
+                  'Estructuras de Datos y Optimización de Algoritmos',
+                  'DevOps e Implementación de Pipelines CI/CD',
+                  'Diseño de Bases de Datos y Optimización de Rendimiento',
+                  'Análisis de Sistemas e Ingeniería de Requisitos',
+                  'Fundamentos de IA y Machine Learning'
                 ]
               },
               experience: {
                 title: 'Experiencia',
                 current: {
                   company: 'FACTORIAL GMBH (2024-2025)',
-                  role: 'Desarrollo Backend de Drupal 10',
-                  description: 'Creación y mantenimiento de módulos, integraciones con Inteligencia Artificial, creación de prototipos, contribuciones de código abierto, actualizaciones de sitios web y migraciones de contenido. Trabajo en remoto.'
+                  role: 'Desarrollo Backend en Drupal 10',
+                  description: 'Creación y mantenimiento de módulos, integraciones con IA, creación de prototipos, contribuciones de código abierto, actualizaciones de sitios web y migraciones de contenido. Trabajo en remoto.'
                 }
               }
             },
@@ -149,17 +156,24 @@ if (!i18n.isInitialized) {
               backend: 'Desarrollo Backend',
               databases: 'Bases de Datos',
               tools: 'DevOps y Herramientas',
+              proficiency: 'Nivel de Habilidad',
+              mastery: 'Nivel de Dominio',
+              proficiencyChart: 'Competencia Técnica',
+              techStack: 'Tecnologías y Herramientas',
+              timeline: 'Trayectoria Tecnológica',
+              certifications: 'Certificaciones y Badges',
+              viewCertificate: 'Ver Certificado',
               languages: [
-                'PHP - Desarrollo de módulos Drupal 10, APIs REST, servicios personalizados',
+                'PHP - Desarrollo de módulos Drupal 10, APIs REST',
                 'Java - Microservicios con Spring Boot, aplicaciones empresariales',
                 'Python - Análisis de datos, proyectos de IA/ML, scripts de automatización',
                 'C++ - Desarrollo de juegos, aplicaciones críticas de rendimiento'
               ],
-              technologies: {
+              techDetails: {
                 ai: 'Integración de IA y Machine Learning - TensorFlow, OpenAI API, modelos ML personalizados',
                 devops: 'Docker, Git, pipelines CI/CD y metodologías ágiles',
                 drupal: 'Desarrollador Backend de Drupal 10 - Módulos, temas y distribuciones personalizadas',
-                databases: 'Gestión de Bases de Datos - MySQL, PostgreSQL, MongoDB, Redis',
+                databases: 'Gestión de Bases de Datos - MySQL, PostgreSQL, MongoDB',
                 web: 'Desarrollo Web - HTML5, CSS3, JavaScript, React, Node.js, Next.js',
                 architecture: 'Arquitectura de Software - Microservicios, APIs REST, GraphQL, sistemas basados en eventos',
                 bi: 'Power BI - Visualización de datos, reporting e inteligencia empresarial'

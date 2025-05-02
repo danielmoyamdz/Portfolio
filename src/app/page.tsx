@@ -56,15 +56,10 @@ export default function Home() {
         </AnimatedSection>
       </section>
 
-      <section id="skills" className="py-20">
-        <AnimatedSection 
-          animation="slideIn" 
-          direction="left"
-          delay={0.3} 
-          duration={0.8}
-        >
+      <section id="skills" className="py-20 bg-background-light dark:bg-background-dark">
+        <div className="container mx-auto">
           <Skills />
-        </AnimatedSection>
+        </div>
       </section>
 
       <section id="projects" className="py-20">
