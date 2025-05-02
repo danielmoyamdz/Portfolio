@@ -137,7 +137,7 @@ export default function AnimatedElement({
     <motion.div
       initial="initial"
       whileInView="whileInView"
-      viewport={{ once: true, margin: "-50px" }}
+      viewport={{ once: true, margin: "0px" }}
       variants={variants}
       className={className}
     >

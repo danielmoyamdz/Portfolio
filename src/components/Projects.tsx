@@ -14,12 +14,12 @@ export default function Projects() {
         delay={0.2} 
         duration={0.8}
       >
-        <h2 className="text-4xl font-bold mb-12 text-center text-heading-light dark:text-heading-dark">
+        <h2 className="text-2xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center text-heading-light dark:text-heading-dark">
           {t('projects.title')}
         </h2>
       </AnimatedElement>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
         <AnimatedElement 
           animation="slideIn" 
           direction="left"

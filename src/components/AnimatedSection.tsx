@@ -124,7 +124,7 @@ export default function AnimatedSection({
     <motion.section
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, margin: "-100px", amount: 0.3 }}
+      viewport={{ once: true, margin: "0px", amount: 0.2 }}
       variants={variants}
       className={className}
     >

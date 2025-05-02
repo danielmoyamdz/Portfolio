@@ -108,14 +108,14 @@ if (!i18n.isInitialized) {
                 'C++ - Game development, performance-critical applications'
               ],
               techDetails: {
-                backend: 'Backend Development - Node.js, Java, PHP, Python',
-                frontend: 'Frontend Development - React, Next.js, HTML5, CSS3',
-                databases: 'Database Management - MySQL, PostgreSQL, MongoDB',
-                devops: 'DevOps & Automation - Docker, Git, CI/CD, Agile methodologies',
-                ai: 'AI Integration & Machine Learning - TensorFlow, OpenAI API, custom models',
-                data: 'Data Analysis - Python, Power BI, visualization & reporting',
-                architecture: 'Software Architecture - Microservices, REST APIs, GraphQL, event-driven systems',
-                bi: 'Business Intelligence - Power BI, reporting, business intelligence'
+                backend: 'Node.js, Java, PHP, Python',
+                frontend: 'React, Next.js, HTML5, CSS3',
+                databases: 'MySQL, PostgreSQL, MongoDB',
+                devops: 'Docker, Git, CI/CD, Agile methodologies',
+                ai: 'TensorFlow, OpenAI API, custom models',
+                data: 'Python, Power BI, visualization & reporting',
+                architecture: 'Microservices, REST APIs, GraphQL, event-driven systems',
+                bi: 'Power BI, reporting, business intelligence'
               }
             },
             projects: {

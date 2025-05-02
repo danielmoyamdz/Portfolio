@@ -13,7 +13,7 @@ export default function About() {
         delay={0.2} 
         duration={0.8}
       >
-        <h2 className="text-4xl font-bold mb-8 text-center text-heading-light dark:text-heading-dark">
+        <h2 className="text-2xl sm:text-4xl font-bold mb-8 text-center text-heading-light dark:text-heading-dark">
           {t('about.title')}
         </h2>
       </AnimatedElement>
@@ -35,7 +35,7 @@ export default function About() {
           delay={0.6} 
           duration={0.8}
         >
-          <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark p-6 rounded-xl mb-8">
+          <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark p-4 sm:p-6 rounded-xl mb-6 sm:mb-8">
             <h3 className="text-2xl font-semibold mb-4 text-heading-light dark:text-heading-dark">
               {t('about.experience.title')}
             </h3>
@@ -59,7 +59,7 @@ export default function About() {
           delay={0.8} 
           duration={0.8}
         >
-          <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark p-6 rounded-xl">
+          <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark p-4 sm:p-6 rounded-xl">
             <h3 className="text-2xl font-semibold mb-4 text-heading-light dark:text-heading-dark">
               {t('about.education.title')}
             </h3>
@@ -74,7 +74,7 @@ export default function About() {
                 <h5 className="text-lg font-medium mb-2 text-heading-light dark:text-heading-dark">
                   {t('about.education.skillsTitle')}
                 </h5>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-3">
                   {(t('about.education.skills', { returnObjects: true }) as string[]).map((skill, index) => (
                     <div 
                       key={index}
