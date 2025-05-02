@@ -46,7 +46,7 @@ export default function Home() {
         </AnimatedSection>
       </section>
 
-      <section id="about" className="py-20">
+      <section id="about" className="py-10 md:py-20 scroll-mt-20">
         <AnimatedSection 
           animation="slideUp" 
           delay={0.2} 
@@ -56,13 +56,13 @@ export default function Home() {
         </AnimatedSection>
       </section>
 
-      <section id="skills" className="py-20">
+      <section id="skills" className="py-10 md:py-20 scroll-mt-20">
         <div className="container mx-auto">
           <Skills />
         </div>
       </section>
 
-      <section id="projects" className="py-20">
+      <section id="projects" className="py-10 md:py-20 scroll-mt-20">
         <AnimatedSection 
           animation="slideIn" 
           direction="right"
@@ -73,7 +73,7 @@ export default function Home() {
         </AnimatedSection>
       </section>
 
-      <section id="contact" className="py-20">
+      <section id="contact" className="py-10 md:py-20 scroll-mt-20">
         <AnimatedSection 
           animation="scale" 
           delay={0.5} 

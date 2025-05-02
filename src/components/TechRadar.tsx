@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Chart as ChartJS,
   RadialLinearScale,
@@ -22,19 +22,43 @@ ChartJS.register(
   Legend
 );
 
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 640);
+    check();
+    window.addEventListener('resize', check);
+    return () => window.removeEventListener('resize', check);
+  }, []);
+  return isMobile;
+}
+
 export default function TechRadar() {
   const { t } = useTranslation();
+  const isMobile = useIsMobile();
+
+  const labels = isMobile
+    ? [
+        t('skills.backend') || 'Backend',
+        t('skills.frontend') || 'Frontend',
+        t('skills.databases') || 'DB',
+        t('skills.tools') || 'DevOps',
+        t('skills.data') || 'Data',
+        t('skills.ai') || 'AI',
+        t('skills.architecture') || 'Arch',
+      ]
+    : [
+        t('skills.techDetails.backend'),
+        t('skills.techDetails.frontend'),
+        t('skills.techDetails.databases'),
+        t('skills.techDetails.devops'),
+        t('skills.techDetails.data'),
+        t('skills.techDetails.ai'),
+        t('skills.techDetails.architecture'),
+      ];
 
   const data = {
-    labels: [
-      t('skills.techDetails.backend'),
-      t('skills.techDetails.frontend'),
-      t('skills.techDetails.databases'),
-      t('skills.techDetails.devops'),
-      t('skills.techDetails.data'),
-      t('skills.techDetails.ai'),
-      t('skills.techDetails.architecture'),
-    ],
+    labels,
     datasets: [
       {
         label: t('skills.proficiency'),
@@ -62,7 +86,7 @@ export default function TechRadar() {
         },
         pointLabels: {
           font: {
-            size: 12,
+            size: isMobile ? 10 : 12,
           },
           color: 'var(--text-color)',
         },
@@ -112,7 +136,7 @@ export default function TechRadar() {
   }, []);
 
   return (
-    <div className="w-full h-[400px] p-4">
+    <div className={`w-full ${isMobile ? 'h-[260px]' : 'h-[400px]'} p-2 sm:p-4`}>
       <Radar data={data} options={options} />
     </div>
   );
