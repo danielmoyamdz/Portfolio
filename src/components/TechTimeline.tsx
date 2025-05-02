@@ -3,90 +3,81 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
-const timelineData = [
-  {
-    year: '2020',
-    title: 'Beginning of the Journey',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Python'],
-    description: 'Started learning programming fundamentals and web development basics'
-  },
-  {
-    year: '2021',
-    title: 'Full Stack Development',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
-    description: 'Expanded into full stack development and modern web technologies'
-  },
-  {
-    year: '2022',
-    title: 'Advanced Backend & DevOps',
-    technologies: ['Java', 'Spring Boot', 'Docker', 'CI/CD'],
-    description: 'Focused on enterprise development and DevOps practices'
-  },
-  {
-    year: '2023',
-    title: 'Specialization',
-    technologies: ['Drupal', 'PHP', 'MySQL', 'PostgreSQL'],
-    description: 'Specialized in Drupal development and database management'
-  },
-  {
-    year: '2024',
-    title: 'Modern Development',
-    technologies: ['Next.js', 'TypeScript', 'AI Integration', 'Cloud Services'],
-    description: 'Embracing modern frameworks and AI technologies'
-  }
-];
+interface TimelineItem {
+  year: string;
+  title: string;
+  description: string;
+  technologies: string[];
+}
 
-export default function TechTimeline() {
+const TechTimeline = () => {
   const { t } = useTranslation();
 
+  const timelineData: TimelineItem[] = [
+    {
+      year: '2020-2021',
+      title: t('skills.timelineData.year1.title'),
+      description: t('skills.timelineData.year1.description'),
+      technologies: t('skills.timelineData.year1.technologies', { returnObjects: true }) as string[]
+    },
+    {
+      year: '2021-2022',
+      title: t('skills.timelineData.year2.title'),
+      description: t('skills.timelineData.year2.description'),
+      technologies: t('skills.timelineData.year2.technologies', { returnObjects: true }) as string[]
+    },
+    {
+      year: '2022-2023',
+      title: t('skills.timelineData.year3.title'),
+      description: t('skills.timelineData.year3.description'),
+      technologies: t('skills.timelineData.year3.technologies', { returnObjects: true }) as string[]
+    },
+    {
+      year: '2023-2024',
+      title: t('skills.timelineData.year4.title'),
+      description: t('skills.timelineData.year4.description'),
+      technologies: t('skills.timelineData.year4.technologies', { returnObjects: true }) as string[]
+    },
+    {
+      year: '2024-2025',
+      title: t('skills.timelineData.year5.title'),
+      description: t('skills.timelineData.year5.description'),
+      technologies: t('skills.timelineData.year5.technologies', { returnObjects: true }) as string[]
+    }
+  ];
+
   return (
-    <div className="relative py-8">
-      <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-primary/20"></div>
-      
-      {timelineData.map((item, index) => (
-        <motion.div
-          key={item.year}
-          className={`relative flex items-center mb-12 ${
-            index % 2 === 0 ? 'justify-start' : 'justify-end'
-          }`}
-          initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{
-            duration: 0.5,
-            delay: index * 0.1,
-            ease: [0.22, 1, 0.36, 1]
-          }}
-          viewport={{ once: true }}
-        >
-          <div className={`w-5/12 ${index % 2 === 0 ? 'pr-8' : 'pl-8'}`}>
-            <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark p-6 rounded-xl shadow-lg">
-              <div className="flex items-center mb-3">
-                <span className="text-2xl font-bold text-primary">{item.year}</span>
-                <div className="w-2 h-2 bg-primary rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
-              </div>
-              
-              <h3 className="text-xl font-semibold mb-2 text-heading-light dark:text-heading-dark">
-                {item.title}
-              </h3>
-              
-              <p className="text-sm text-text-light dark:text-text-dark mb-4">
-                {item.description}
-              </p>
-              
-              <div className="flex flex-wrap gap-2">
+    <div className="py-12">
+      <div className="max-w-4xl mx-auto">
+        {timelineData.map((item, index) => (
+          <motion.div
+            key={item.year}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: index * 0.2 }}
+            viewport={{ once: true }}
+            className="relative pl-8 pb-12 border-l-2 border-blue-500 last:border-l-0"
+          >
+            <div className="absolute -left-3 mt-1.5 h-6 w-6 rounded-full bg-blue-500" />
+            <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg">
+              <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400">{item.year}</h3>
+              <p className="mt-2 text-gray-600 dark:text-gray-300">{item.description}</p>
+              <div className="mt-4 flex flex-wrap gap-2">
                 {item.technologies.map((tech) => (
                   <span
                     key={tech}
-                    className="px-2 py-1 text-xs rounded-full bg-primary/10 text-primary"
+                    className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm"
                   >
                     {tech}
                   </span>
                 ))}
               </div>
             </div>
-          </div>
-        </motion.div>
-      ))}
+          </motion.div>
+        ))}
+      </div>
     </div>
   );
-} 
+};
+
+export default TechTimeline; 

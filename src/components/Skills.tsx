@@ -8,7 +8,7 @@ import TechTimeline from './TechTimeline';
 import Certifications from './Certifications';
 
 export default function Skills() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <div className="container mx-auto px-4">
@@ -83,7 +83,7 @@ export default function Skills() {
           {t('skills.timeline')}
         </h3>
         <div className="bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-card-light dark:shadow-card-dark rounded-xl p-6">
-          <TechTimeline />
+          <TechTimeline key={i18n.language} />
         </div>
       </div>
 

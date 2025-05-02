@@ -27,17 +27,18 @@ export default function TechRadar() {
 
   const data = {
     labels: [
-      'Backend Development',
-      'Frontend Development',
-      'Database Management',
-      'DevOps',
-      'AI/ML',
-      'System Architecture',
+      t('skills.techDetails.backend'),
+      t('skills.techDetails.frontend'),
+      t('skills.techDetails.databases'),
+      t('skills.techDetails.devops'),
+      t('skills.techDetails.data'),
+      t('skills.techDetails.ai'),
+      t('skills.techDetails.architecture'),
     ],
     datasets: [
       {
         label: t('skills.proficiency'),
-        data: [95, 65, 80, 60, 80, 70],
+        data: [95, 80, 75, 70, 80, 90, 85],
         backgroundColor: 'rgba(0, 122, 255, 0.2)',
         borderColor: 'rgba(0, 122, 255, 1)',
         borderWidth: 2,

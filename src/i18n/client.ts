@@ -60,7 +60,12 @@ if (!i18n.isInitialized) {
             skills: {
               title: 'Skills',
               backend: 'Backend Development',
+              frontend: 'Frontend Development',
               databases: 'Databases',
+              data: 'Data Analysis',
+              ai: 'AI & Machine Learning',
+              architecture: 'Software Architecture',
+              bi: 'Business Intelligence',
               tools: 'DevOps & Tools',
               proficiency: 'Skill Proficiency',
               mastery: 'Mastery Level',
@@ -69,6 +74,33 @@ if (!i18n.isInitialized) {
               timeline: 'Technology Journey',
               certifications: 'Certifications & Badges',
               viewCertificate: 'View Certificate',
+              timelineData: {
+                year1: {
+                  title: 'Computer Science Fundamentals',
+                  description: 'First year focused on mathematical and physical fundamentals and basic programming. Introduction to data structures and computers.',
+                  technologies: ['Physics', 'Computer Technology', 'Data Structures', 'Basic Programming']
+                },
+                year2: {
+                  title: 'Development and Networks',
+                  description: 'Deepening in software development, databases, networks and concurrent programming. Introduction to Artificial Intelligence.',
+                  technologies: ['Algorithm Analysis', 'Databases', 'Networks', 'Concurrent Programming', 'AI']
+                },
+                year3: {
+                  title: 'Software Engineering',
+                  description: 'Focus on software engineering, operating systems and network architecture. Development of skills in system design and modeling.',
+                  technologies: ['Software Engineering', 'Operating Systems', 'Network Architecture', 'System Design']
+                },
+                year4: {
+                  title: 'Specialization and Final Project',
+                  description: 'Specialization in enterprise architectures, network security and data mining. Development of the Final Project on cyber attack analysis.',
+                  technologies: ['Enterprise Architectures', 'Project Management', 'Network Security', 'Data Mining', 'Cybersecurity TFG']
+                },
+                year5: {
+                  title: 'Professional Experience',
+                  description: 'Backend Development at Factorial GmbH, a German company based in Hamburg. Remote work focused on Drupal 10 development, AI integrations, and open source contributions.',
+                  technologies: ['Drupal 10', 'AI Integration', 'Open Source', 'Remote Work', 'Backend Development']
+                }
+              },
               languages: [
                 'PHP - Drupal 10 module development, REST APIs',
                 'Java - Spring Boot microservices, enterprise applications',
@@ -76,13 +108,14 @@ if (!i18n.isInitialized) {
                 'C++ - Game development, performance-critical applications'
               ],
               techDetails: {
-                ai: 'AI Integration & Machine Learning - TensorFlow, OpenAI API, custom ML models',
-                devops: 'Docker, Git, CI/CD pipelines, and Agile methodologies',
-                drupal: 'Drupal 10 Backend Developer - Custom modules, themes, and distributions',
+                backend: 'Backend Development - Node.js, Java, PHP, Python',
+                frontend: 'Frontend Development - React, Next.js, HTML5, CSS3',
                 databases: 'Database Management - MySQL, PostgreSQL, MongoDB',
-                web: 'Web Development - HTML5, CSS3, JavaScript, React, Node.js, Next.js',
-                architecture: 'Software architecture - Microservices, REST APIs, GraphQL, Event-driven systems',
-                bi: 'Power BI - Data visualization, reporting, and business intelligence'
+                devops: 'DevOps & Automation - Docker, Git, CI/CD, Agile methodologies',
+                ai: 'AI Integration & Machine Learning - TensorFlow, OpenAI API, custom models',
+                data: 'Data Analysis - Python, Power BI, visualization & reporting',
+                architecture: 'Software Architecture - Microservices, REST APIs, GraphQL, event-driven systems',
+                bi: 'Business Intelligence - Power BI, reporting, business intelligence'
               }
             },
             projects: {
@@ -154,7 +187,12 @@ if (!i18n.isInitialized) {
             skills: {
               title: 'Habilidades',
               backend: 'Desarrollo Backend',
+              frontend: 'Desarrollo Frontend',
               databases: 'Bases de Datos',
+              data: 'Análisis de Datos',
+              ai: 'IA y Machine Learning',
+              architecture: 'Arquitectura de Software',
+              bi: 'Business Intelligence',
               tools: 'DevOps y Herramientas',
               proficiency: 'Nivel de Habilidad',
               mastery: 'Nivel de Dominio',
@@ -163,6 +201,33 @@ if (!i18n.isInitialized) {
               timeline: 'Trayectoria Tecnológica',
               certifications: 'Certificaciones y Badges',
               viewCertificate: 'Ver Certificado',
+              timelineData: {
+                year1: {
+                  title: 'Fundamentos de la Computación',
+                  description: 'Primer año enfocado en fundamentos matemáticos, físicos y programación básica. Introducción a la estructura de datos y computadores.',
+                  technologies: ['Física', 'Tecnología de Computadores', 'Estructura de Datos', 'Programación Básica']
+                },
+                year2: {
+                  title: 'Desarrollo y Redes',
+                  description: 'Profundización en desarrollo de software, bases de datos, redes y programación concurrente. Introducción a la Inteligencia Artificial.',
+                  technologies: ['Análisis de Algoritmos', 'Bases de Datos', 'Redes', 'Programación Concurrente', 'IA']
+                },
+                year3: {
+                  title: 'Ingeniería de Software',
+                  description: 'Enfoque en ingeniería de software, sistemas operativos y arquitectura de redes. Desarrollo de habilidades en diseño y modelado de sistemas.',
+                  technologies: ['Ingeniería de Software', 'Sistemas Operativos', 'Arquitectura de Redes', 'Diseño de Sistemas']
+                },
+                year4: {
+                  title: 'Especialización y Proyecto Final',
+                  description: 'Especialización en arquitecturas empresariales, seguridad en redes y minería de datos. Desarrollo del TFG sobre análisis de ataques cibernéticos.',
+                  technologies: ['Arquitecturas Empresariales', 'Gestión de Proyectos', 'Seguridad en Redes', 'Minería de Datos', 'TFG en Ciberseguridad']
+                },
+                year5: {
+                  title: 'Experiencia Profesional',
+                  description: 'Desarrollo Backend en Factorial GmbH, empresa alemana con sede en Hamburgo. Trabajo en remoto centrado en desarrollo con Drupal 10, integraciones con IA y contribuciones de código abierto.',
+                  technologies: ['Drupal 10', 'Integración IA', 'Código Abierto', 'Teletrabajo', 'Desarrollo Backend']
+                }
+              },
               languages: [
                 'PHP - Desarrollo de módulos Drupal 10, APIs REST',
                 'Java - Microservicios con Spring Boot, aplicaciones empresariales',
@@ -170,13 +235,14 @@ if (!i18n.isInitialized) {
                 'C++ - Desarrollo de juegos, aplicaciones críticas de rendimiento'
               ],
               techDetails: {
-                ai: 'Integración de IA y Machine Learning - TensorFlow, OpenAI API, modelos ML personalizados',
-                devops: 'Docker, Git, pipelines CI/CD y metodologías ágiles',
-                drupal: 'Desarrollador Backend de Drupal 10 - Módulos, temas y distribuciones personalizadas',
+                backend: 'Desarrollo Backend - Node.js, Java, PHP, Python',
+                frontend: 'Desarrollo Frontend - React, Next.js, HTML5, CSS3',
                 databases: 'Gestión de Bases de Datos - MySQL, PostgreSQL, MongoDB',
-                web: 'Desarrollo Web - HTML5, CSS3, JavaScript, React, Node.js, Next.js',
+                devops: 'DevOps y Automatización - Docker, Git, CI/CD, metodologías ágiles',
+                ai: 'Integración de IA y Machine Learning - TensorFlow, OpenAI API, modelos personalizados',
+                data: 'Análisis de Datos - Python, Power BI, visualización y reporting',
                 architecture: 'Arquitectura de Software - Microservicios, APIs REST, GraphQL, sistemas basados en eventos',
-                bi: 'Power BI - Visualización de datos, reporting e inteligencia empresarial'
+                bi: 'Business Intelligence - Power BI, reporting, inteligencia empresarial'
               }
             },
             projects: {
