@@ -15,6 +15,7 @@ import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import ScrollMenu from '../components/ScrollMenu';
 import Testimonials from '../components/Testimonials';
+import Conference from '../components/Conference';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -64,6 +65,16 @@ export default function Home() {
           duration={0.8}
         >
           <Testimonials />
+        </AnimatedSection>
+      </section>
+
+      <section id="conference" className="py-10 md:py-20 scroll-mt-20 relative z-0">
+        <AnimatedSection 
+          animation="fadeIn" 
+          delay={0.35} 
+          duration={0.8}
+        >
+          <Conference />
         </AnimatedSection>
       </section>
 

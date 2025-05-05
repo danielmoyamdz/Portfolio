@@ -140,6 +140,13 @@ Daniel is an honest, hardworking individual with a genuine desire to improve. He
 His ability to adapt to new technologies and programming languages, such as JavaScript and Python, even under tight deadlines, is impressive. Beyond his technical skills, he is organized, receptive to feedback, and a great team player—always bringing a positive and proactive attitude. His strong English skills and flexibility make him a valuable addition to any team.`
               }
             },
+            conference: {
+              title: 'Conference & Public Speaking',
+              event: 'Drupal Developer Days 2025 – Speaker',
+              description: 'I had the amazing opportunity to present my session at the Drupal Developer Days 2025 in Leuven, Belgium, sharing my journey from the initial challenges to the milestones achieved during my first year as a Drupal developer. The event was an incredible experience to connect with the global Drupal community and contribute to its knowledge sharing.',
+              linkedin: 'View LinkedIn Post',
+              imageAlt: 'Presenting at Drupal Developer Days 2025'
+            },
             contact: {
               title: 'Contact',
               email: 'danielmoya2002@gmail.com',
@@ -284,6 +291,13 @@ Daniel es una persona honesta, trabajadora y con un genuino deseo de mejorar. Co
 
 Su capacidad para adaptarse a nuevas tecnologías y lenguajes de programación, como JavaScript y Python, incluso bajo plazos ajustados, es impresionante. Más allá de sus habilidades técnicas, es organizado, receptivo a la retroalimentación y un excelente compañero de equipo, siempre aportando una actitud positiva y proactiva. Sus sólidas habilidades en inglés y su flexibilidad lo convierten en una valiosa adición a cualquier equipo.`
               }
+            },
+            conference: {
+              title: 'Conferencias & Charlas',
+              event: 'Drupal Developer Days 2025 – Ponente',
+              description: 'Tuve la oportunidad de presentar mi sesión en los Drupal Developer Days 2025 en Leuven, Bélgica, compartiendo mi experiencia desde los retos iniciales hasta los logros alcanzados durante mi primer año como desarrollador Drupal. El evento fue una experiencia increíble para conectar con la comunidad global de Drupal y contribuir al intercambio de conocimiento.',
+              linkedin: 'Ver post en LinkedIn',
+              imageAlt: 'Exponiendo en Drupal Developer Days 2025'
             },
             contact: {
               title: 'Contacto',

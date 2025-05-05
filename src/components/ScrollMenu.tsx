@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaBars, FaTimes, FaHome, FaUser, FaCode, FaProjectDiagram, FaEnvelope, FaCogs, FaTools, FaRoute, FaCertificate, FaQuoteLeft } from 'react-icons/fa';
+import { FaBars, FaTimes, FaHome, FaUser, FaCode, FaProjectDiagram, FaEnvelope, FaCogs, FaTools, FaRoute, FaCertificate, FaQuoteLeft, FaMicrophone } from 'react-icons/fa';
 
 export default function ScrollMenu() {
   const { t } = useTranslation();
@@ -13,6 +13,7 @@ export default function ScrollMenu() {
     { id: 'hero', label: t('hero.name'), icon: FaHome },
     { id: 'about', label: t('about.title'), icon: FaUser },
     { id: 'testimonials', label: t('testimonials.title', 'Recomendaciones'), icon: FaQuoteLeft },
+    { id: 'conference', label: t('conference.title'), icon: FaMicrophone },
     { id: 'skills', label: t('skills.title'), icon: FaCode },
     { id: 'technologies-tools', label: t('skills.techStack'), icon: FaTools },
     { id: 'technology-journey', label: t('skills.timeline'), icon: FaRoute },
