@@ -11,9 +11,17 @@
     --foreground-rgb: 255, 255, 255;
   }
 
-  body {
+  html, body {
     color: rgb(var(--foreground-rgb));
     min-height: 100vh;
+    overflow-x: hidden;
+    width: 100vw;
+    max-width: 100vw;
+  }
+
+  body > * {
+    max-width: 100vw;
+    box-sizing: border-box;
   }
 }
 
