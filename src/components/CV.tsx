@@ -50,23 +50,23 @@ const CV: React.FC = () => {
               <div className="flex space-x-2">
                 <button
                   onClick={() => i18n.changeLanguage('en')}
-                  className={`flex items-center gap-2 px-4 py-2 rounded-lg font-semibold transition-all border-2 focus:outline-none focus:ring-2 focus:ring-blue-400/60 ${
+                  className={`px-4 py-2 rounded-lg font-semibold transition-all border-2 focus:outline-none focus:ring-2 focus:ring-blue-400/60 ${
                     currentLanguage === 'en'
                       ? 'bg-blue-600 text-white border-blue-600 shadow-lg'
                       : 'bg-white/20 text-blue-200 border-blue-400 hover:bg-blue-500/20'
                   }`}
                 >
-                  <FaGlobe /> English
+                  English
                 </button>
                 <button
                   onClick={() => i18n.changeLanguage('es')}
-                  className={`flex items-center gap-2 px-4 py-2 rounded-lg font-semibold transition-all border-2 focus:outline-none focus:ring-2 focus:ring-blue-400/60 ${
+                  className={`px-4 py-2 rounded-lg font-semibold transition-all border-2 focus:outline-none focus:ring-2 focus:ring-blue-400/60 ${
                     currentLanguage === 'es'
                       ? 'bg-blue-600 text-white border-blue-600 shadow-lg'
                       : 'bg-white/20 text-blue-200 border-blue-400 hover:bg-blue-500/20'
                   }`}
                 >
-                  <FaLanguage /> Español
+                  Español
                 </button>
               </div>
               <button

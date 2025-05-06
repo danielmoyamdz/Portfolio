@@ -18,7 +18,7 @@ export default function PersistentMessage() {
       }}
     >
       <span className="text-gradient font-medium bg-transparent shadow-none">
-        Portfolio 100% desarrollado por Daniel Moya
+        {t('portfolio.developedBy', 'Portfolio 100% desarrollado por Daniel Moya')}
       </span>
     </motion.div>
   );
