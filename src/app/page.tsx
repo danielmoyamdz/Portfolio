@@ -16,6 +16,7 @@ import Contact from '../components/Contact';
 import ScrollMenu from '../components/ScrollMenu';
 import Testimonials from '../components/Testimonials';
 import Conference from '../components/Conference';
+import CV from '../components/CV';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -55,6 +56,16 @@ export default function Home() {
           duration={0.8}
         >
           <About />
+        </AnimatedSection>
+      </section>
+
+      <section id="cv" className="py-10 md:py-20 scroll-mt-20 relative z-0">
+        <AnimatedSection 
+          animation="fadeIn" 
+          delay={0.25} 
+          duration={0.8}
+        >
+          <CV />
         </AnimatedSection>
       </section>
 

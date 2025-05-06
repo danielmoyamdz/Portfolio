@@ -116,7 +116,8 @@ if (!i18n.isInitialized) {
                 data: 'Python, Power BI, visualization & reporting',
                 architecture: 'Microservices, REST APIs, GraphQL, event-driven systems',
                 bi: 'Power BI, reporting, business intelligence'
-              }
+              },
+              open: 'Open PDF'
             },
             projects: {
               title: 'Projects',
@@ -160,6 +161,17 @@ His ability to adapt to new technologies and programming languages, such as Java
               spanish: 'Spanish - Native',
               english: 'English - Advanced',
               italian: 'Italian - Basic'
+            },
+            cv: {
+              title: 'Curriculum Vitae',
+              download: 'Download PDF',
+              previous: 'Previous',
+              next: 'Next',
+              page: 'Page',
+              of: 'of',
+              error: 'Could not load the PDF. Please try again later.',
+              loading: 'Loading PDF...',
+              open: 'Open PDF'
             }
           }
         },
@@ -268,7 +280,8 @@ His ability to adapt to new technologies and programming languages, such as Java
                 data: 'Análisis de Datos - Python, Power BI, visualización y reporting',
                 architecture: 'Arquitectura de Software - Microservicios, APIs REST, GraphQL, sistemas basados en eventos',
                 bi: 'Business Intelligence - Power BI, reporting, inteligencia empresarial'
-              }
+              },
+              open: 'Abrir PDF'
             },
             projects: {
               title: 'Proyectos',
@@ -312,6 +325,17 @@ Su capacidad para adaptarse a nuevas tecnologías y lenguajes de programación, 
               spanish: 'Español - Nativo',
               english: 'Inglés - Avanzado',
               italian: 'Italiano - Básico'
+            },
+            cv: {
+              title: 'Curriculum Vitae',
+              download: 'Descargar PDF',
+              previous: 'Anterior',
+              next: 'Siguiente',
+              page: 'Página',
+              of: 'de',
+              error: 'No se pudo cargar el PDF. Por favor, inténtalo de nuevo más tarde.',
+              loading: 'Cargando PDF...',
+              open: 'Abrir PDF'
             }
           }
         }
