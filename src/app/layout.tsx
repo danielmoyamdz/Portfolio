@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   title: 'Daniel Moya Portfolio',
   description: 'Professional portfolio showcasing backend development expertise',
   icons: {
-    icon: '/favicon.ico',
-    apple: '/apple-touch-icon.png',
+    icon: '/Portfolio/favicon/favicon.ico',
+    apple: '/Portfolio/images/dm-logo.png',
   },
 };
 
@@ -27,19 +27,19 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon/favicon.ico" />
-        <link rel="apple-touch-icon" href="/images/dm-logo.png" />
+        <link rel="icon" href="/Portfolio/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" href="/Portfolio/images/dm-logo.png" />
         {/* Open Graph / Facebook */}
         <meta property="og:title" content="Daniel Moya Portfolio" />
         <meta property="og:description" content="Professional portfolio showcasing backend development expertise" />
-        <meta property="og:image" content="/images/dm-logo.png" />
+        <meta property="og:image" content="/Portfolio/images/dm-logo.png" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://danielmoyamdz.github.io/Portfolio/" />
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Daniel Moya Portfolio" />
         <meta name="twitter:description" content="Professional portfolio showcasing backend development expertise" />
-        <meta name="twitter:image" content="/images/dm-logo.png" />
+        <meta name="twitter:image" content="/Portfolio/images/dm-logo.png" />
         <script
           dangerouslySetInnerHTML={{
             __html: `

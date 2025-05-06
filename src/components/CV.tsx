@@ -81,23 +81,12 @@ const CV: React.FC = () => {
               {error ? (
                 <div className="text-red-500 text-center py-10">{error}</div>
               ) : (
-                isMobile ? (
-                  <a
-                    href={currentCV}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-8 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold shadow-lg hover:bg-blue-700 transition-colors"
-                  >
-                    {t('cv.open', 'Open PDF')}
-                  </a>
-                ) : (
-                  <iframe
-                    src={currentCV}
-                    title="CV Preview"
-                    className="w-full min-h-[500px] rounded-xl border-none bg-white dark:bg-gray-900"
-                    onError={() => setError(t('cv.error', 'Could not load the PDF. Please try again later.'))}
-                  />
-                )
+                <iframe
+                  src={currentCV}
+                  title="CV Preview"
+                  className="w-full min-h-[500px] rounded-xl border-none bg-white dark:bg-gray-900"
+                  onError={() => setError(t('cv.error', 'Could not load the PDF. Please try again later.'))}
+                />
               )}
             </div>
           </div>
