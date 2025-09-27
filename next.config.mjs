@@ -10,8 +10,9 @@ const nextConfig = {
       },
     ],
   },
-  basePath: '/Portfolio',
-  assetPrefix: '/Portfolio/',
+  // Remove basePath and assetPrefix for GitHub Pages
+  // basePath: '/Portfolio',
+  // assetPrefix: '/Portfolio/',
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: true,
