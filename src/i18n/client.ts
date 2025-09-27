@@ -51,9 +51,9 @@ if (!i18n.isInitialized) {
               experience: {
                 title: 'Experience',
                 current: {
-                  company: 'Factorial GmbH (2024-2025)',
-                  role: 'Drupal 10 Backend Development',
-                  description: 'Creation and maintenance of modules, AI integrations, prototype creation, open source contributions, website updates, and content migrations. Remote work.'
+                  company: 'Citri&Co (2025-Present)',
+                  role: 'Software Developer',
+                  description: 'Responsible for ERP maintenance and evolution, incident management, Power Automate automations, and database control. Focused on system optimization and process improvement.'
                 }
               }
             },
@@ -99,6 +99,11 @@ if (!i18n.isInitialized) {
                   title: 'Professional Experience',
                   description: 'Backend Development at Factorial GmbH, a German company based in Hamburg. Remote work focused on Drupal 10 development, AI integrations, and open source contributions.',
                   technologies: ['Drupal 10', 'AI Integration', 'Open Source', 'Remote Work', 'Backend Development']
+                },
+                year6: {
+                  title: 'Software Developer at Citri&Co',
+                  description: 'Working as Software Developer at Citri&Co since 2025. Responsible for ERP maintenance and evolution, incident management, Power Automate automations, and database control.',
+                  technologies: ['ERP Development', 'Power Automate', 'Database Management', 'Incident Management', 'Software Maintenance']
                 }
               },
               languages: [
@@ -143,10 +148,14 @@ His ability to adapt to new technologies and programming languages, such as Java
             },
             conference: {
               title: 'Conference & Public Speaking',
-              event: 'Drupal Developer Days 2025 – Speaker',
-              description: 'I had the amazing opportunity to present my session at the Drupal Developer Days 2025 in Leuven, Belgium, sharing my journey from the initial challenges to the milestones achieved during my first year as a Drupal developer. The event was an incredible experience to connect with the global Drupal community and contribute to its knowledge sharing.',
-              linkedin: 'View LinkedIn Post',
-              imageAlt: 'Presenting at Drupal Developer Days 2025'
+              event1: 'Drupal Developer Days 2025 – Speaker',
+              description1: 'I had the amazing opportunity to present my session at the Drupal Developer Days 2025 in Leuven, Belgium, sharing my journey from the initial challenges to the milestones achieved during my first year as a Drupal developer. The event was an incredible experience to connect with the global Drupal community and contribute to its knowledge sharing.',
+              linkedin1: 'View LinkedIn Post',
+              imageAlt1: 'Presenting at Drupal Developer Days 2025',
+              event2: 'Latest Public Speaking Engagement',
+              description2: 'I recently had the opportunity to share my insights and experiences in software development, focusing on the latest trends in ERP systems, automation with Power Automate, and database management. This speaking engagement allowed me to connect with fellow professionals and share knowledge about modern development practices and system optimization.',
+              linkedin2: 'View LinkedIn Post',
+              imageAlt2: 'Public Speaking Engagement'
             },
             contact: {
               title: 'Contact',
@@ -215,9 +224,9 @@ His ability to adapt to new technologies and programming languages, such as Java
               experience: {
                 title: 'Experiencia',
                 current: {
-                  company: 'Factorial GmbH (2024-2025)',
-                  role: 'Desarrollo Backend en Drupal 10',
-                  description: 'Creación y mantenimiento de módulos, integraciones con IA, creación de prototipos, contribuciones de código abierto, actualizaciones de sitios web y migraciones de contenido. Trabajo en remoto.'
+                  company: 'Citri&Co (2025-Actualidad)',
+                  role: 'Desarrollador de Software',
+                  description: 'Encargado del mantenimiento y evolución del ERP, gestión de incidencias, automatizaciones con Power Automate y control de bases de datos. Enfocado en la optimización de sistemas y mejora de procesos.'
                 }
               }
             },
@@ -263,6 +272,11 @@ His ability to adapt to new technologies and programming languages, such as Java
                   title: 'Experiencia Profesional',
                   description: 'Desarrollo Backend en Factorial GmbH, empresa alemana con sede en Hamburgo. Trabajo en remoto centrado en desarrollo con Drupal 10, integraciones con IA y contribuciones de código abierto.',
                   technologies: ['Drupal 10', 'Integración IA', 'Código Abierto', 'Teletrabajo', 'Desarrollo Backend']
+                },
+                year6: {
+                  title: 'Desarrollador de Software en Citri&Co',
+                  description: 'Trabajando como Desarrollador de Software en Citri&Co desde 2025. Encargado del mantenimiento y evolución del ERP, gestión de incidencias, automatizaciones con Power Automate y control de bases de datos.',
+                  technologies: ['Desarrollo ERP', 'Power Automate', 'Gestión de Bases de Datos', 'Gestión de Incidencias', 'Mantenimiento de Software']
                 }
               },
               languages: [
@@ -307,10 +321,14 @@ Su capacidad para adaptarse a nuevas tecnologías y lenguajes de programación, 
             },
             conference: {
               title: 'Conferencias & Charlas',
-              event: 'Drupal Developer Days 2025 – Ponente',
-              description: 'Tuve la oportunidad de presentar mi sesión en los Drupal Developer Days 2025 en Leuven, Bélgica, compartiendo mi experiencia desde los retos iniciales hasta los logros alcanzados durante mi primer año como desarrollador Drupal. El evento fue una experiencia increíble para conectar con la comunidad global de Drupal y contribuir al intercambio de conocimiento.',
-              linkedin: 'Ver post en LinkedIn',
-              imageAlt: 'Exponiendo en Drupal Developer Days 2025'
+              event1: 'Drupal Developer Days 2025 – Ponente',
+              description1: 'Tuve la oportunidad de presentar mi sesión en los Drupal Developer Days 2025 en Leuven, Bélgica, compartiendo mi experiencia desde los retos iniciales hasta los logros alcanzados durante mi primer año como desarrollador Drupal. El evento fue una experiencia increíble para conectar con la comunidad global de Drupal y contribuir al intercambio de conocimiento.',
+              linkedin1: 'Ver post en LinkedIn',
+              imageAlt1: 'Exponiendo en Drupal Developer Days 2025',
+              event2: 'Última Charla Pública',
+              description2: 'Recientemente tuve la oportunidad de compartir mis conocimientos y experiencias en desarrollo de software, centrándome en las últimas tendencias en sistemas ERP, automatización con Power Automate y gestión de bases de datos. Esta charla me permitió conectar con otros profesionales y compartir conocimientos sobre prácticas modernas de desarrollo y optimización de sistemas.',
+              linkedin2: 'Ver post en LinkedIn',
+              imageAlt2: 'Charla Pública Reciente'
             },
             contact: {
               title: 'Contacto',

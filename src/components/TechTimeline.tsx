@@ -43,6 +43,12 @@ const TechTimeline = () => {
       title: t('skills.timelineData.year5.title'),
       description: t('skills.timelineData.year5.description'),
       technologies: t('skills.timelineData.year5.technologies', { returnObjects: true }) as string[]
+    },
+    {
+      year: '2025-Actualidad',
+      title: t('skills.timelineData.year6.title'),
+      description: t('skills.timelineData.year6.description'),
+      technologies: t('skills.timelineData.year6.technologies', { returnObjects: true }) as string[]
     }
   ];
 
