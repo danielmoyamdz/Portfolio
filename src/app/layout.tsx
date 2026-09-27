@@ -5,6 +5,7 @@ import { Providers } from './providers';
 import ClientLayout from './ClientLayout';
 import PersistentMessage from '../components/PersistentMessage';
 import BackgroundFX from '../components/BackgroundFX';
+import { publicUrl } from '@/lib/site';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -14,14 +15,14 @@ export const metadata: Metadata = {
   description:
     'Portfolio of Daniel Moya Méndez, software developer at CITRI&CO. ERP, SQL, Power Automate, Drupal and backend development.',
   icons: {
-    icon: '/favicon/favicon.ico',
-    apple: '/images/dm-logo.png',
+    icon: publicUrl('/favicon/favicon.ico'),
+    apple: publicUrl('/images/dm-logo.png'),
   },
   openGraph: {
     title: 'Daniel Moya Méndez | Software Developer',
     description:
       'Software developer at CITRI&CO. Previously backend developer at Factorial GmbH.',
-    images: ['/images/dm-logo.png'],
+    images: [publicUrl('/images/dm-logo.png')],
     type: 'website',
     url: 'https://danielmoyamdz.github.io/Portfolio/',
   },

@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
+import { publicUrl } from '@/lib/site';
 
 export default function Conference() {
   const { t } = useTranslation();
@@ -53,7 +54,7 @@ export default function Conference() {
             <div className="flex-1 flex justify-center items-center min-h-[200px] relative z-10">
               <div className="overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-700 w-[220px] h-[300px] md:w-[350px] md:h-[450px] relative">
                 <Image
-                  src={conference.image}
+                  src={publicUrl(conference.image)}
                   alt={conference.imageAlt}
                   fill
                   sizes="(max-width: 768px) 220px, 350px"

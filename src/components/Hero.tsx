@@ -5,7 +5,7 @@ import { FaDrupal, FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import AnimatedElement from './AnimatedElement';
 import TypedTitle from './TypedTitle';
-import { SITE } from '@/lib/site';
+import { SITE, publicUrl } from '@/lib/site';
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -22,7 +22,7 @@ export default function Hero() {
       <AnimatedElement animation="scale" delay={0.1} duration={0.6} className="mb-12 relative">
         <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden mb-8 mx-auto bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark p-1.5 relative z-10">
           <Image
-            src="/images/profile.jpg"
+            src={publicUrl('/images/profile.jpg')}
             alt="Daniel Moya"
             width={320}
             height={320}

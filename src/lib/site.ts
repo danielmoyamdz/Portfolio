@@ -9,8 +9,11 @@ export const SITE = {
   basePath: '/Portfolio',
 } as const;
 
-/** Prefix for raw `<img>` / download URLs. Next/Image already applies `basePath`. */
+/** Prefix static files for GitHub Pages. next/image with `unoptimized` does not add `basePath`. */
 export function publicUrl(path: string) {
   const normalized = path.startsWith('/') ? path : `/${path}`;
-  return `${SITE.basePath}${normalized}`;
+  if (normalized === SITE.basePath || normalized.startsWith(`${SITE.basePath}/`)) {
+    return encodeURI(normalized);
+  }
+  return encodeURI(`${SITE.basePath}${normalized}`);
 }

@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { publicUrl } from '@/lib/site';
 
 const technologies = [
   { name: 'PHP', file: 'php.svg' },
@@ -24,7 +25,7 @@ export default function TechLogos() {
         <div key={tech.name} className="flex flex-col items-center">
           <div className="w-16 h-16 md:w-20 md:h-20 relative flex items-center justify-center bg-card-light dark:bg-card-dark rounded-xl p-3 shadow-lg hover:scale-105 transition-transform">
             <Image
-              src={`/tech/${tech.file}`}
+              src={publicUrl(`/tech/${tech.file}`)}
               alt={tech.name}
               width={64}
               height={64}

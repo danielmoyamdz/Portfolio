@@ -2,6 +2,7 @@
 
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
+import { publicUrl } from '@/lib/site';
 
 const certifications = [
   {
@@ -80,7 +81,7 @@ export default function Certifications() {
 
             <div className="relative w-full h-32 mb-4 flex-shrink-0">
               <Image
-                src={cert.image}
+                src={publicUrl(cert.image)}
                 alt={cert.name}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
