@@ -7,6 +7,7 @@ const nextConfig = {
   basePath: '/Portfolio',
   assetPrefix: '/Portfolio/',
   trailingSlash: true,
+  reactStrictMode: true,
 }
 
-module.exports = nextConfig 
+module.exports = nextConfig

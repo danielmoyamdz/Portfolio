@@ -12,54 +12,27 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>(() => {
-    if (typeof window !== 'undefined') {
-      const storedTheme = localStorage.getItem('theme') as Theme | null;
-      if (storedTheme) return storedTheme;
-      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    }
-    return 'light';
-  });
-  const [mounted, setMounted] = useState(false);
+  const [theme, setTheme] = useState<Theme>('light');
 
   useEffect(() => {
-    setMounted(true);
+    const stored = localStorage.getItem('theme') as Theme | null;
+    const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    setTheme(stored ?? preferred);
   }, []);
 
   useEffect(() => {
-    if (mounted) {
-      // Apply theme to document
-      const root = document.documentElement;
-      root.classList.remove('light', 'dark');
-      root.classList.add(theme);
-      root.setAttribute('data-theme', theme);
-      localStorage.setItem('theme', theme);
-
-      // Actualizar los colores del fondo
-      if (theme === 'dark') {
-        document.body.style.setProperty('--background-start-rgb', '17, 24, 39');
-        document.body.style.setProperty('--background-end-rgb', '11, 15, 25');
-      } else {
-        document.body.style.setProperty('--background-start-rgb', '255, 255, 255');
-        document.body.style.setProperty('--background-end-rgb', '242, 242, 247');
-      }
-    }
-  }, [theme, mounted]);
+    const root = document.documentElement;
+    root.classList.remove('light', 'dark');
+    root.classList.add(theme);
+    root.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  }, [theme]);
 
   const toggleTheme = () => {
-    setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light');
+    setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
   };
 
-  // Prevent hydration mismatch
-  if (!mounted) {
-    return null;
-  }
-
-  return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      {children}
-    </ThemeContext.Provider>
-  );
+  return <ThemeContext.Provider value={{ theme, toggleTheme }}>{children}</ThemeContext.Provider>;
 }
 
 export function useTheme() {
@@ -68,4 +41,4 @@ export function useTheme() {
     throw new Error('useTheme must be used within a ThemeProvider');
   }
   return context;
-} 
+}

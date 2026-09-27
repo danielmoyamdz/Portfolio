@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaBars, FaTimes, FaHome, FaUser, FaCode, FaProjectDiagram, FaEnvelope, FaCogs, FaTools, FaRoute, FaCertificate, FaQuoteLeft, FaMicrophone, FaFileAlt } from 'react-icons/fa';
+import { FaBars, FaTimes, FaHome, FaUser, FaCode, FaProjectDiagram, FaEnvelope, FaTools, FaRoute, FaCertificate, FaQuoteLeft, FaMicrophone, FaFileAlt } from 'react-icons/fa';
 
 export default function ScrollMenu() {
   const { t } = useTranslation();

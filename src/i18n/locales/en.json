@@ -1,0 +1,189 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "portfolio": {
+    "developedBy": "Portfolio 100% developed by Daniel Moya"
+  },
+  "hero": {
+    "name": "Daniel Moya Méndez",
+    "title": "Computer Engineer",
+    "subtitle": "Building scalable and efficient solutions",
+    "description": "Software engineer currently at CITRI&CO, focused on ERP evolution, SQL databases and process automation. Previously backend developer at Factorial GmbH (Drupal 10, AI integrations and open source)."
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Software Engineering professional with strong experience in development and technological solutions implementation. I stand out for my analytical capacity, leadership and teamwork, focused on optimizing processes and achieving strategic objectives. I am proactive and an extroverted person who loves to continuously learn new things.",
+    "education": {
+      "title": "Education",
+      "degree": "Computer Engineering Degree in Software Engineering",
+      "university": "Universidad de Extremadura (2020 - 2024)",
+      "skillsTitle": "Key Skills & Knowledge",
+      "skills": [
+        "Advanced Software Architecture & Design Patterns",
+        "Full Stack Development & Cloud Computing",
+        "Agile Methodologies & Project Management",
+        "Data Structures & Algorithms Optimization",
+        "DevOps & CI/CD Pipeline Implementation",
+        "Database Design & Performance Optimization",
+        "System Analysis & Requirements Engineering",
+        "AI & Machine Learning Fundamentals"
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "jobs": [
+        {
+          "company": "CITRI&CO",
+          "period": "June 2025 – Present",
+          "role": "Software Developer",
+          "description": "Responsible for maintenance and evolution of the corporate ERP, with a strong focus on SQL databases: writing queries, resolving incidents and optimizing performance. Building automations with Power Automate to improve internal processes."
+        },
+        {
+          "company": "Factorial GmbH",
+          "period": "2024 – April 2025",
+          "role": "Junior Backend Developer",
+          "description": "Remote Drupal 10 backend development: creating and maintaining modules, AI integrations, prototypes, open-source contributions, site updates and content migrations."
+        }
+      ]
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "backend": "Backend Development",
+    "frontend": "Frontend Development",
+    "databases": "Databases",
+    "data": "Data Analysis",
+    "ai": "AI & Machine Learning",
+    "architecture": "Software Architecture",
+    "bi": "Business Intelligence",
+    "tools": "DevOps & Tools",
+    "techStack": "Technologies & Tools",
+    "timeline": "Technology Journey",
+    "certifications": "Certifications & Badges",
+    "viewCertificate": "View Certificate",
+    "timelineData": {
+      "year1": {
+        "period": "2020–2021",
+        "title": "Computer Science Fundamentals",
+        "description": "First year focused on mathematical and physical fundamentals and basic programming. Introduction to data structures and computers.",
+        "technologies": ["Physics", "Computer Technology", "Data Structures", "Basic Programming"]
+      },
+      "year2": {
+        "period": "2021–2022",
+        "title": "Development and Networks",
+        "description": "Deepening in software development, databases, networks and concurrent programming. Introduction to Artificial Intelligence.",
+        "technologies": ["Algorithm Analysis", "Databases", "Networks", "Concurrent Programming", "AI"]
+      },
+      "year3": {
+        "period": "2022–2023",
+        "title": "Software Engineering",
+        "description": "Focus on software engineering, operating systems and network architecture. Development of skills in system design and modeling.",
+        "technologies": ["Software Engineering", "Operating Systems", "Network Architecture", "System Design"]
+      },
+      "year4": {
+        "period": "2023–2024",
+        "title": "Specialization and Final Project",
+        "description": "Specialization in enterprise architectures, network security and data mining. Development of the Final Project on cyber attack analysis.",
+        "technologies": ["Enterprise Architectures", "Project Management", "Network Security", "Data Mining", "Cybersecurity TFG"]
+      },
+      "year5": {
+        "period": "2024 – April 2025",
+        "title": "Junior Backend Developer at Factorial GmbH",
+        "description": "Remote backend work at Factorial GmbH (Hamburg). Drupal 10 modules, AI integrations, prototypes, open-source contributions, site updates and content migrations.",
+        "technologies": ["Drupal 10", "PHP", "AI Integration", "Open Source", "Remote Work"]
+      },
+      "year6": {
+        "period": "June 2025 – Present",
+        "title": "Software Developer at CITRI&CO",
+        "description": "ERP maintenance and evolution, SQL query design, incident resolution, database performance optimization, and Power Automate automations.",
+        "technologies": ["ERP", "SQL", "Power Automate", "Incident Management", "Process Automation"]
+      }
+    },
+    "techDetails": {
+      "backend": "PHP, Drupal 10, Java, Node.js, Python",
+      "frontend": "React, Next.js, HTML5, CSS3",
+      "databases": "SQL, MySQL, PostgreSQL, MongoDB",
+      "devops": "Docker, Git, CI/CD, Agile methodologies",
+      "ai": "OpenAI API, LLMs, prompt engineering, custom prototypes",
+      "data": "Python, SQL, Power BI, visualization & reporting",
+      "architecture": "REST APIs, modules, ERP integrations, event-driven workflows",
+      "bi": "Power BI, Power Automate, reporting, business intelligence"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "viewProject": "View Project",
+    "items": [
+      {
+        "title": "Portfolio",
+        "description": "A modern, responsive portfolio with dark/light mode, animations and full bilingual support."
+      },
+      {
+        "title": "Password Generator",
+        "description": "A JavaScript application for generating secure passwords with customizable options."
+      },
+      {
+        "title": "Film Searcher",
+        "description": "A web application that allows users to search for movies using the OMDb API."
+      },
+      {
+        "title": "Tic Tac Toe",
+        "description": "A Python implementation of the classic Tic Tac Toe game with an unbeatable AI opponent."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Professional Recommendations",
+    "contact": "Contact",
+    "alvaro": {
+      "position": "Backend People Lead",
+      "content": "I am delighted to write this letter of recommendation for Daniel Moya, who worked under my supervision at Factorial.io. Daniel joined us as an intern for six months, after which we offered him a full-time contract due to the exceptional potential we saw in him.\n\nDuring his internship, Daniel initially faced challenges adapting to a remote working environment and communicating in English. However, he quickly demonstrated his ability to adapt and thrive, overcoming these obstacles with determination and a proactive attitude. His growth during this period was remarkable, and it was clear that he possessed the skills and mindset to succeed in our team.\n\nDaniel is an honest, hardworking individual with a genuine desire to improve. He consistently brought enthusiasm and dedication to his role, making him a pleasure to work with. I am confident that he will be an asset to any team fortunate enough to have him."
+    },
+    "natalia": {
+      "position": "Lead Developer | Data Science, ML & AI",
+      "content": "I had the pleasure of working with Daniel on several projects at Factorial, and he is a dedicated and skilled developer apprentice. He has experience with Drupal development and open-source PHP applications like Mautic, along with knowledge of working with LLMs and prompt engineering to develop AI agents and chatbots.\n\nHis ability to adapt to new technologies and programming languages, such as JavaScript and Python, even under tight deadlines, is impressive. Beyond his technical skills, he is organized, receptive to feedback, and a great team player—always bringing a positive and proactive attitude. His strong English skills and flexibility make him a valuable addition to any team."
+    }
+  },
+  "conference": {
+    "title": "Conference & Public Speaking",
+    "event1": "Drupal Developer Days 2025 – Speaker",
+    "description1": "I presented my session at Drupal Developer Days 2025 in Leuven, Belgium, sharing the journey from the first challenges to the milestones of my first year as a Drupal developer, and connecting with the global Drupal community.",
+    "linkedin1": "View LinkedIn Post",
+    "imageAlt1": "Presenting at Drupal Developer Days 2025",
+    "event2": "Public speaking on ERP, automation and data",
+    "description2": "I shared insights on ERP systems, Power Automate automations and database management, connecting with other professionals around modern development practices and process optimization.",
+    "linkedin2": "View LinkedIn Post",
+    "imageAlt2": "Public speaking engagement"
+  },
+  "contact": {
+    "title": "Contact",
+    "infoTitle": "Contact Information",
+    "email": "danielmoya2002@gmail.com",
+    "phone": "+34 675 837 275",
+    "address": "Calle La Bosca, 6, 12530, Castellón de la Plana",
+    "linkedin": "https://www.linkedin.com/in/daniel-moya-mendez/",
+    "drupal": "https://www.drupal.org/u/daniel_mm02"
+  },
+  "languages": {
+    "title": "Languages",
+    "spanish": "Spanish - Native",
+    "english": "English - Advanced",
+    "italian": "Italian - Basic"
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "subtitle": "Download the latest version of my CV. The file updates with the language of the site.",
+    "download": "Download PDF",
+    "open": "Open PDF",
+    "error": "Could not load the PDF. Please try again later."
+  },
+  "notFound": {
+    "message": "Page not found",
+    "back": "Back to home"
+  }
+}

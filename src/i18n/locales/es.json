@@ -1,0 +1,189 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "portfolio": {
+    "developedBy": "Portfolio 100% desarrollado por Daniel Moya"
+  },
+  "hero": {
+    "name": "Daniel Moya Méndez",
+    "title": "Ingeniero Informático",
+    "subtitle": "Construyendo soluciones escalables y eficientes",
+    "description": "Ingeniero de software en CITRI&CO, centrado en la evolución del ERP, bases de datos SQL y automatización de procesos. Anteriormente desarrollador backend en Factorial GmbH (Drupal 10, integraciones de IA y código abierto)."
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description": "Profesional en Ingeniería de Software con sólida experiencia en el desarrollo y la implementación de soluciones tecnológicas. Destaco por mi capacidad de análisis, liderazgo y trabajo en equipo, orientado a optimizar procesos y alcanzar objetivos estratégicos. Soy proactivo y una persona extrovertida a la que le encanta estar aprendiendo cosas nuevas continuamente.",
+    "education": {
+      "title": "Educación",
+      "degree": "Grado en Ingeniería Informática en Ingeniería del Software",
+      "university": "Universidad de Extremadura (2020 - 2024)",
+      "skillsTitle": "Habilidades y Conocimientos Clave",
+      "skills": [
+        "Arquitectura de Software Avanzada y Patrones de Diseño",
+        "Desarrollo Full Stack y Computación en la Nube",
+        "Metodologías Ágiles y Gestión de Proyectos",
+        "Estructuras de Datos y Optimización de Algoritmos",
+        "DevOps e Implementación de Pipelines CI/CD",
+        "Diseño de Bases de Datos y Optimización de Rendimiento",
+        "Análisis de Sistemas e Ingeniería de Requisitos",
+        "Fundamentos de IA y Machine Learning"
+      ]
+    },
+    "experience": {
+      "title": "Experiencia",
+      "jobs": [
+        {
+          "company": "CITRI&CO",
+          "period": "Junio 2025 – Actualidad",
+          "role": "Desarrollador de Software",
+          "description": "Encargado del mantenimiento y la evolución del ERP corporativo, con especial enfoque en bases de datos SQL: creación de consultas, resolución de incidencias y optimización del rendimiento. Desarrollo de automatizaciones con Power Automate para mejorar procesos internos."
+        },
+        {
+          "company": "Factorial GmbH",
+          "period": "2024 – Abril 2025",
+          "role": "Desarrollador Backend Junior",
+          "description": "Desarrollo backend en remoto con Drupal 10: creación y mantenimiento de módulos, integraciones con inteligencia artificial, prototipos, contribuciones de código abierto, actualizaciones de sitios y migraciones de contenido."
+        }
+      ]
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "backend": "Desarrollo Backend",
+    "frontend": "Desarrollo Frontend",
+    "databases": "Bases de Datos",
+    "data": "Análisis de Datos",
+    "ai": "IA y Machine Learning",
+    "architecture": "Arquitectura de Software",
+    "bi": "Business Intelligence",
+    "tools": "DevOps y Herramientas",
+    "techStack": "Tecnologías y Herramientas",
+    "timeline": "Trayectoria Tecnológica",
+    "certifications": "Certificaciones y Badges",
+    "viewCertificate": "Ver Certificado",
+    "timelineData": {
+      "year1": {
+        "period": "2020–2021",
+        "title": "Fundamentos de la Computación",
+        "description": "Primer año enfocado en fundamentos matemáticos, físicos y programación básica. Introducción a la estructura de datos y computadores.",
+        "technologies": ["Física", "Tecnología de Computadores", "Estructura de Datos", "Programación Básica"]
+      },
+      "year2": {
+        "period": "2021–2022",
+        "title": "Desarrollo y Redes",
+        "description": "Profundización en desarrollo de software, bases de datos, redes y programación concurrente. Introducción a la Inteligencia Artificial.",
+        "technologies": ["Análisis de Algoritmos", "Bases de Datos", "Redes", "Programación Concurrente", "IA"]
+      },
+      "year3": {
+        "period": "2022–2023",
+        "title": "Ingeniería de Software",
+        "description": "Enfoque en ingeniería de software, sistemas operativos y arquitectura de redes. Desarrollo de habilidades en diseño y modelado de sistemas.",
+        "technologies": ["Ingeniería de Software", "Sistemas Operativos", "Arquitectura de Redes", "Diseño de Sistemas"]
+      },
+      "year4": {
+        "period": "2023–2024",
+        "title": "Especialización y Proyecto Final",
+        "description": "Especialización en arquitecturas empresariales, seguridad en redes y minería de datos. Desarrollo del TFG sobre análisis de ataques cibernéticos.",
+        "technologies": ["Arquitecturas Empresariales", "Gestión de Proyectos", "Seguridad en Redes", "Minería de Datos", "TFG en Ciberseguridad"]
+      },
+      "year5": {
+        "period": "2024 – Abril 2025",
+        "title": "Desarrollador Backend Junior en Factorial GmbH",
+        "description": "Trabajo en remoto en Factorial GmbH (Hamburgo). Módulos Drupal 10, integraciones de IA, prototipos, contribuciones open source, actualizaciones de sitios y migraciones de contenido.",
+        "technologies": ["Drupal 10", "PHP", "Integración IA", "Código Abierto", "Teletrabajo"]
+      },
+      "year6": {
+        "period": "Junio 2025 – Actualidad",
+        "title": "Desarrollador de Software en CITRI&CO",
+        "description": "Mantenimiento y evolución del ERP, diseño de consultas SQL, resolución de incidencias, optimización de bases de datos y automatizaciones con Power Automate.",
+        "technologies": ["ERP", "SQL", "Power Automate", "Gestión de Incidencias", "Automatización de Procesos"]
+      }
+    },
+    "techDetails": {
+      "backend": "PHP, Drupal 10, Java, Node.js, Python",
+      "frontend": "React, Next.js, HTML5, CSS3",
+      "databases": "SQL, MySQL, PostgreSQL, MongoDB",
+      "devops": "Docker, Git, CI/CD, metodologías ágiles",
+      "ai": "OpenAI API, LLMs, ingeniería de prompts, prototipos",
+      "data": "Python, SQL, Power BI, visualización y reporting",
+      "architecture": "APIs REST, módulos, integraciones ERP, flujos automatizados",
+      "bi": "Power BI, Power Automate, reporting, inteligencia empresarial"
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "viewProject": "Ver Proyecto",
+    "items": [
+      {
+        "title": "Portfolio",
+        "description": "Portfolio moderno y responsive, con modo claro/oscuro, animaciones y soporte bilingüe."
+      },
+      {
+        "title": "Password Generator",
+        "description": "Aplicación en JavaScript para generar contraseñas seguras con opciones personalizables."
+      },
+      {
+        "title": "Film Searcher",
+        "description": "Aplicación web para buscar películas usando la API de OMDb."
+      },
+      {
+        "title": "Tic Tac Toe",
+        "description": "Implementación en Python del tres en raya clásico con un rival de IA imbatible."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Recomendaciones Profesionales",
+    "contact": "Contacto",
+    "alvaro": {
+      "position": "Líder de Equipo Backend",
+      "content": "Me complace escribir esta carta de recomendación para Daniel Moya, quien trabajó bajo mi supervisión en Factorial.io. Daniel se unió a nosotros como becario durante seis meses, después de lo cual le ofrecimos un contrato a tiempo completo debido al excepcional potencial que vimos en él.\n\nDurante su período de prácticas, Daniel inicialmente enfrentó desafíos al adaptarse a un entorno de trabajo remoto y a comunicarse en inglés. Sin embargo, rápidamente demostró su capacidad para adaptarse y prosperar, superando estos obstáculos con determinación y una actitud proactiva. Su crecimiento durante este período fue notable, y quedó claro que poseía las habilidades y la mentalidad para tener éxito en nuestro equipo.\n\nDaniel es una persona honesta, trabajadora y con un genuino deseo de mejorar. Constantemente aportaba entusiasmo y dedicación a su rol, lo que lo hacía un placer trabajar con él. Estoy seguro de que será un activo valioso para cualquier equipo que tenga la fortuna de contar con él."
+    },
+    "natalia": {
+      "position": "Líder de Desarrollo | Ciencia de Datos, ML & IA",
+      "content": "Tuve el placer de trabajar con Daniel en varios proyectos en Factorial, y es un desarrollador aprendiz dedicado y hábil. Tiene experiencia en desarrollo con Drupal y aplicaciones PHP de código abierto como Mautic, junto con conocimientos en el trabajo con LLMs e ingeniería de prompts para desarrollar agentes de IA y chatbots.\n\nSu capacidad para adaptarse a nuevas tecnologías y lenguajes de programación, como JavaScript y Python, incluso bajo plazos ajustados, es impresionante. Más allá de sus habilidades técnicas, es organizado, receptivo a la retroalimentación y un excelente compañero de equipo, siempre aportando una actitud positiva y proactiva. Sus sólidas habilidades en inglés y su flexibilidad lo convierten en una valiosa adición a cualquier equipo."
+    }
+  },
+  "conference": {
+    "title": "Conferencias & Charlas",
+    "event1": "Drupal Developer Days 2025 – Ponente",
+    "description1": "Presenté mi sesión en los Drupal Developer Days 2025 en Leuven, Bélgica, compartiendo el camino desde los primeros retos hasta los hitos de mi primer año como desarrollador Drupal, y conectando con la comunidad global.",
+    "linkedin1": "Ver post en LinkedIn",
+    "imageAlt1": "Exponiendo en Drupal Developer Days 2025",
+    "event2": "Charla sobre ERP, automatización y datos",
+    "description2": "Compartí aprendizajes sobre sistemas ERP, automatizaciones con Power Automate y gestión de bases de datos, conectando con otros profesionales en torno a prácticas modernas de desarrollo y optimización de procesos.",
+    "linkedin2": "Ver post en LinkedIn",
+    "imageAlt2": "Charla pública"
+  },
+  "contact": {
+    "title": "Contacto",
+    "infoTitle": "Información de contacto",
+    "email": "danielmoya2002@gmail.com",
+    "phone": "+34 675 837 275",
+    "address": "Calle La Bosca, 6, 12530, Castellón de la Plana",
+    "linkedin": "https://www.linkedin.com/in/daniel-moya-mendez/",
+    "drupal": "https://www.drupal.org/u/daniel_mm02"
+  },
+  "languages": {
+    "title": "Idiomas",
+    "spanish": "Español - Nativo",
+    "english": "Inglés - Avanzado",
+    "italian": "Italiano - Básico"
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "subtitle": "Descarga la última versión de mi CV. El archivo se corresponde con el idioma del sitio.",
+    "download": "Descargar PDF",
+    "open": "Abrir PDF",
+    "error": "No se pudo cargar el PDF. Por favor, inténtalo de nuevo más tarde."
+  },
+  "notFound": {
+    "message": "Página no encontrada",
+    "back": "Volver al inicio"
+  }
+}

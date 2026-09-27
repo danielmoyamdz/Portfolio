@@ -121,7 +121,7 @@ export default function AnimatedSection({
   const variants = getAnimationVariants();
 
   return (
-    <motion.section
+    <motion.div
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: "0px", amount: 0.2 }}
@@ -129,6 +129,6 @@ export default function AnimatedSection({
       className={className}
     >
       {children}
-    </motion.section>
+    </motion.div>
   );
 } 
